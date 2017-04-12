@@ -1,4 +1,4 @@
-# Zombie-City
+﻿# Zombie-City
 Author: Zhang Fan
 //add your name
 
@@ -22,5 +22,6 @@ Maps：
 Inventory：
 库存系统 UI的一部分
 
+Multiple game mode ? 
 
 
