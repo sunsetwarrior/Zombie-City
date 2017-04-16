@@ -3661,24 +3661,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/EngineMeshes/Cube",
-			"CookedPackageName": "/Engine/EngineMeshes/Cube",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineMeshes/Cube.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "3df8b92be5f54cfc1d3344fff42c5466",
-			"FullPackageHash": "e90442b15afee14b7bc537fc28aef65c",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/EngineMeshes/Cylinder",
 			"CookedPackageName": "/Engine/EngineMeshes/Cylinder",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -4292,25 +4274,6 @@
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Maps/Entry",
-			"CookedPackageName": "/Engine/Maps/Entry",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Maps/Entry.umap",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e4016b42f6b9197cdf10a7f089b0fdb0",
-			"FullPackageHash": "0037a269d3911cdfec6e5e2ce5b8a670",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/Foliage",
 				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
@@ -5113,24 +5076,6 @@
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/TutorialAssets/Tutorial_DM",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/TutorialAssets/Tutorial_DM",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "2b13e49cb369c85bdf2672d76b94e3ef",
-			"FullPackageHash": "afc30ce0991edcf9ad743f8200a05411",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -6100,61 +6045,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Geometry/Meshes/1M_Cube",
-			"CookedPackageName": "/Game/Geometry/Meshes/1M_Cube",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Geometry/Meshes/1M_Cube.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "889e81a27e498ac5ea884a1edc1c8fd2",
-			"FullPackageHash": "af54e9b2389db15fb503bd9ffa706aca",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Geometry/Meshes/1M_Cube_Chamfer",
-			"CookedPackageName": "/Game/Geometry/Meshes/1M_Cube_Chamfer",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a7aa9f5644c1f718c004fe0efbb5677c",
-			"FullPackageHash": "458670da46043d7378894dd6e8b679d1",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Geometry/Meshes/CubeMaterial",
-			"CookedPackageName": "/Game/Geometry/Meshes/CubeMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Geometry/Meshes/CubeMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e98e0c71babf884de754e0d56a22907e",
-			"FullPackageHash": "87af16abf4a428195bc3cb3fdefeed0c",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/ZombieCity/Blueprints/Projectile",
 			"CookedPackageName": "/Game/ZombieCity/Blueprints/Projectile",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6202,8 +6092,8 @@
 			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/ZombieCityPawn.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "0c6a96486738f3220f9e05661d9994bb",
-			"FullPackageHash": "634d3a08bea77c5920b7e6631d07372e",
+			"DependentPackageHash": "fc15b76990fd6c7db50c34ca56978055",
+			"FullPackageHash": "2410fb20a2a7366efd04858e9c5aa46e",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6218,23 +6108,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/ZombieCity/Maps/MainMap_BuiltData",
-			"CookedPackageName": "/Game/ZombieCity/Maps/MainMap_BuiltData",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "fc7e947355c42738605158f759c27586",
-			"FullPackageHash": "f7d566b19431f4669813339365cf1b2d",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/ZombieCity/Maps/UIMap",
 			"CookedPackageName": "/Game/ZombieCity/Maps/UIMap",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6242,8 +6115,8 @@
 			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "3ed423df4f46a6409c694ccb8f5368f5",
-			"FullPackageHash": "741dbeea663c53ceaed5d0f114ec2bb3",
+			"DependentPackageHash": "ca62d0be7a02f09814ee6c4bab83a9f4",
+			"FullPackageHash": "78b3ccf95f8b87f2e8aef344c2a7ffeb",
 			"DependencyData": [
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
@@ -6264,8 +6137,8 @@
 			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "b2e84b70dd3335e1ee30d587a1e23622",
-			"FullPackageHash": "b0bc11ddaa8bea3e165bb72aa6091a39",
+			"DependentPackageHash": "e46d15f5334ff1869799c3c5f15b3aba",
+			"FullPackageHash": "0b7675fec0b308d6d6cbc5f5e82ef9cc",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -6316,6 +6189,48 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "46b87a79dff4595d25573f38b51b7783",
+			"FullPackageHash": "17e0dfc79bd1d8d4fd16ffed4cf870de",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
+			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "5118c2dbc9f0202e6075e9138e7776af",
+			"FullPackageHash": "6cce638b46ac228277e18622b5dc1c89",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Intro_Tutorial",
 			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Intro_Tutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6337,6 +6252,111 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "80ee177443711b70171105900ae58fb2",
+			"FullPackageHash": "0c67253d801b2958a936356a0e2def8f",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "e57265084346949f9d163af4b1395796",
+			"FullPackageHash": "1f68201605e07f87c11908c512377f54",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "e78fdfae30394032d883ea8565d74d69",
+			"FullPackageHash": "f85d7a5026b43446a3fb5438b8e7a005",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "f61cf648393a2397f4b0a30e2271d3a4",
+			"FullPackageHash": "fbd232876d2c3288ae574161c78cc5a3",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "e7597d79996c7babe755d7ab322fc7ea",
+			"FullPackageHash": "d33faeaf4f33b8cbcd90bfc49e2dade1",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/Tutorial/Landscape/Landscape_Manage_Mode",
 			"CookedPackageName": "/Engine/Tutorial/Landscape/Landscape_Manage_Mode",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6346,6 +6366,71 @@
 			"SucceededSave": "false",
 			"DependentPackageHash": "29761a9f76330a801686c91d23a266cf",
 			"FullPackageHash": "42dad1ed01484972cdd7ec57c72014e9",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Landscape/Landscape_Painting_Mode",
+			"CookedPackageName": "/Engine/Tutorial/Landscape/Landscape_Painting_Mode",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "f94e030e23b2c44c052185528cc056a0",
+			"FullPackageHash": "135099480b9a052907513cd6b6ac226a",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/Landscape",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Landscape/Landscape_Sculpt_Mode",
+			"CookedPackageName": "/Engine/Tutorial/Landscape/Landscape_Sculpt_Mode",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "0603f455aa378e338eb7391ea7d83165",
+			"FullPackageHash": "c5b1137d3990703bf69e6c97ce83bad7",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/Landscape",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Landscape/LandscapeWalkThrough",
+			"CookedPackageName": "/Engine/Tutorial/Landscape/LandscapeWalkThrough",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "2e15300dc5520caf70330c32d1b75922",
+			"FullPackageHash": "6ca97a755601b32c474353b3fb214b04",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6442,113 +6527,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "f15951b0851da1b3635adebbe46daa88",
-			"FullPackageHash": "53aeb738d00dc0efe180e887577023d7",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Landscape/Landscape_Painting_Mode",
-			"CookedPackageName": "/Engine/Tutorial/Landscape/Landscape_Painting_Mode",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "f94e030e23b2c44c052185528cc056a0",
-			"FullPackageHash": "135099480b9a052907513cd6b6ac226a",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/Landscape",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Landscape/Landscape_Sculpt_Mode",
-			"CookedPackageName": "/Engine/Tutorial/Landscape/Landscape_Sculpt_Mode",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "0603f455aa378e338eb7391ea7d83165",
-			"FullPackageHash": "c5b1137d3990703bf69e6c97ce83bad7",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/Landscape",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Landscape/LandscapeWalkThrough",
-			"CookedPackageName": "/Engine/Tutorial/Landscape/LandscapeWalkThrough",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "2e15300dc5520caf70330c32d1b75922",
-			"FullPackageHash": "6ca97a755601b32c474353b3fb214b04",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "e57265084346949f9d163af4b1395796",
-			"FullPackageHash": "1f68201605e07f87c11908c512377f54",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/Tutorial/SubEditors/MaterialEditorTutorial",
 			"CookedPackageName": "/Engine/Tutorial/SubEditors/MaterialEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6558,48 +6536,6 @@
 			"SucceededSave": "false",
 			"DependentPackageHash": "370e0d31d787528f1e6f7e847ab2f631",
 			"FullPackageHash": "5d398235aaaf28ea9471e3aa9eba36a8",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "e7597d79996c7babe755d7ab322fc7ea",
-			"FullPackageHash": "d33faeaf4f33b8cbcd90bfc49e2dade1",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "f61cf648393a2397f4b0a30e2271d3a4",
-			"FullPackageHash": "fbd232876d2c3288ae574161c78cc5a3",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6654,27 +6590,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "80ee177443711b70171105900ae58fb2",
-			"FullPackageHash": "0c67253d801b2958a936356a0e2def8f",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorOverview",
 			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorOverview",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6717,57 +6632,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
-			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "5118c2dbc9f0202e6075e9138e7776af",
-			"FullPackageHash": "6cce638b46ac228277e18622b5dc1c89",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "e78fdfae30394032d883ea8565d74d69",
-			"FullPackageHash": "f85d7a5026b43446a3fb5438b8e7a005",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "46b87a79dff4595d25573f38b51b7783",
-			"FullPackageHash": "17e0dfc79bd1d8d4fd16ffed4cf870de",
+			"DependentPackageHash": "f15951b0851da1b3635adebbe46daa88",
+			"FullPackageHash": "53aeb738d00dc0efe180e887577023d7",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
