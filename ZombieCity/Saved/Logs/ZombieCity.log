@@ -607,3 +607,92 @@ LogInit: Object subsystem initialized
 [2017.04.16-16.38.32:461][818]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltData941BD1D9450CB499E143798382FB64D6.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
 [2017.04.16-16.38.32:462][818]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
 [2017.04.16-16.38.32:553][818]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.16-16.41.45:483][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.16-16.41.45:602][655]LogSavePackage: Save=95.01ms
+[2017.04.16-16.41.45:602][655]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMapEE93F66B479E8D9FF469B2B4E3C7F825.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap'
+[2017.04.16-16.41.45:604][655]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap
+[2017.04.16-16.41.45:629][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.16-16.41.45:633][655]LogSavePackage: Save=1.11ms
+[2017.04.16-16.41.45:633][655]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltDataD0709B4E488A1B7EAC11B09AA6925786.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.16-16.41.45:634][655]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.04.16-16.43.57:996][ 60]LogSlate: Took 0.116216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.16-16.44.50:090][ 58]LogEditorTransaction: Undo Move Widget
+[2017.04.16-16.45.31:800][493]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.46.15:520][  0]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.46.19:923][234]BlueprintLog: New page: Compile ZombieCityPawn
+[2017.04.16-16.46.21:638][316]LogTemp: Repeting last play command: Standalone Game
+[2017.04.16-16.46.22:970][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/ui/PauseMenuWidget" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset" SILENT=true
+[2017.04.16-16.46.22:992][316]LogSavePackage: Save=15.74ms
+[2017.04.16-16.46.22:992][316]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/PauseMenuWidget47EC34114832BD6C1293668E2C7F0F2B.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset'
+[2017.04.16-16.46.22:994][316]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset
+[2017.04.16-16.46.23:028][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.16-16.46.23:128][316]LogSavePackage: Save=96.14ms
+[2017.04.16-16.46.23:128][316]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UEDPCUIMap80FA654B45A1C767A7443889E1F83AF1.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.04.16-16.46.23:130][316]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.04.16-16.46.23:137][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.16-16.46.23:143][316]LogSavePackage: Save=1.14ms
+[2017.04.16-16.46.23:143][316]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltData3A4E40F04C670E32A190D5BA375CF013.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.16-16.46.23:145][316]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.04.16-16.46.23:229][316]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.16-16.51.05:332][711]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.51.07:707][836]LogTemp: Repeting last play command: Standalone Game
+[2017.04.16-16.51.09:164][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/ui/PauseMenuWidget" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset" SILENT=true
+[2017.04.16-16.51.09:185][836]LogSavePackage: Save=16.51ms
+[2017.04.16-16.51.09:185][836]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/PauseMenuWidget1DA83CD642A61F16042F5480B1421FB5.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset'
+[2017.04.16-16.51.09:188][836]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset
+[2017.04.16-16.51.09:223][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.16-16.51.09:322][836]LogSavePackage: Save=94.69ms
+[2017.04.16-16.51.09:322][836]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UEDPCUIMap83FED9DE449639823F178ABD8992949D.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.04.16-16.51.09:323][836]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.04.16-16.51.09:329][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.16-16.51.09:335][836]LogSavePackage: Save=1.15ms
+[2017.04.16-16.51.09:336][836]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltData78CD1F0D42BD2AC4EF91E8937D88154B.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.16-16.51.09:337][836]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.04.16-16.51.09:418][836]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.16-16.52.45:302][209]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/UIMap' took 0.020
+[2017.04.16-16.52.45:305][209]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ZombieCity/ui/PauseMenuWidget] ([1] browsable assets)...
+[2017.04.16-16.52.45:305][209]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/ui/PauseMenuWidget]
+[2017.04.16-16.52.45:328][209]LogSavePackage: Save=16.81ms
+[2017.04.16-16.52.45:328][209]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/PauseMenuWidget_Auto8045949914EDAA5691A9F8A8D3E2A2914.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/ui/PauseMenuWidget_Auto8.uasset'
+[2017.04.16-16.52.45:329][209]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/ui/PauseMenuWidget_Auto8.uasset
+[2017.04.16-16.52.45:329][209]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.04.16-16.57.00:383][ 74]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.57.31:944][927]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.57.33:774][ 25]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.57.37:963][264]LogTemp: Repeting last play command: Standalone Game
+[2017.04.16-16.57.39:071][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/ui/PauseMenuWidget" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset" SILENT=true
+[2017.04.16-16.57.39:094][264]LogSavePackage: Save=18.35ms
+[2017.04.16-16.57.39:094][264]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/PauseMenuWidget9A16574C4DC1CA08E80EA3B97A223829.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset'
+[2017.04.16-16.57.39:096][264]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset
+[2017.04.16-16.57.39:132][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.16-16.57.39:230][264]LogSavePackage: Save=93.95ms
+[2017.04.16-16.57.39:230][264]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UEDPCUIMapC868518D4DA1480FEC7CBEBFCCC85784.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.04.16-16.57.39:232][264]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.04.16-16.57.39:237][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.16-16.57.39:243][264]LogSavePackage: Save=1.25ms
+[2017.04.16-16.57.39:243][264]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltData279E65D648E1903D45637A942170CB06.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.16-16.57.39:244][264]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.04.16-16.57.39:330][264]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.16-16.58.16:997][816]BlueprintLog: New page: Compile PauseMenuWidget
+[2017.04.16-16.58.18:786][911]LogTemp: Repeting last play command: Standalone Game
+[2017.04.16-16.58.19:887][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/ui/PauseMenuWidget" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset" SILENT=true
+[2017.04.16-16.58.19:909][911]LogSavePackage: Save=16.61ms
+[2017.04.16-16.58.19:909][911]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/PauseMenuWidgetFB3BAE1C4C9D87813AE11DA543B68BD2.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset'
+[2017.04.16-16.58.19:911][911]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset
+[2017.04.16-16.58.19:946][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.16-16.58.20:043][911]LogSavePackage: Save=92.76ms
+[2017.04.16-16.58.20:043][911]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UEDPCUIMap0D415D7445A6EF421F9718B25E7D23F8.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.04.16-16.58.20:044][911]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.04.16-16.58.20:050][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.16-16.58.20:055][911]LogSavePackage: Save=1.10ms
+[2017.04.16-16.58.20:055][911]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltData8967B2F24286795BB2D2CE9CF7ECE065.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.16-16.58.20:056][911]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.04.16-16.58.20:143][911]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.16-16.59.08:907][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.16-16.59.09:020][642]LogSavePackage: Save=91.29ms
+[2017.04.16-16.59.09:020][642]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap75DCAF60475F45A0EE252998ABDC9E69.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap'
+[2017.04.16-16.59.09:021][642]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap
+[2017.04.16-16.59.09:043][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.16-16.59.09:048][642]LogSavePackage: Save=1.04ms
+[2017.04.16-16.59.09:048][642]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltData678E4DBD4BDFBC2698ECE18D235E2072.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.16-16.59.09:049][642]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
