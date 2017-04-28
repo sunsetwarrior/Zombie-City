@@ -19,12 +19,23 @@ Weapon:
 建议直接用 cs go 的模型， 如果画风对的话
 
 Maps：
+different kinds
+maze map
+
 制作几个不同的关卡
 
-Inventory：
-contains different weapons
+Inventory：库存系统 UI的一部分
 
-库存系统 UI的一部分
+history local cache system:
+player can choose to load last game.
+also play new game.
+
+drop system: 
+contains different weapons
+hamburger + hp 
+bullets + bullets num
+buff  +50%damage  boss fight
+
 
 music 
 game particle effect 
