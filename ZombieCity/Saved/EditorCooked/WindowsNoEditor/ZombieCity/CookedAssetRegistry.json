@@ -1,131 +1,6 @@
 {
 	"Packages": [
 		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Enums/EFloatTypes.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "90d62bbcdd098843f39114397e26e9f4",
-			"FullPackageHash": "8e20a04f7e75ce9c7acd51297e704073",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Enums/EIntTypes",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Enums/EIntTypes",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Enums/EIntTypes.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "3a641f7d6f47284d43e8b8078cc7e6ba",
-			"FullPackageHash": "2ebf514ff7f504e803a79b4b534397c2",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "8d5f561e129fc260a8daaf085ec0d400",
-			"FullPackageHash": "cd48275df8c5da93e51b389311dfde2a",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "0fd87ec88e63ae743a5b1e1f46097642",
-			"FullPackageHash": "79dbfc66cc5fa2168315830c1c3ea567",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "18f1309dee6a3f05640d96b9c5db0dfe",
-			"FullPackageHash": "48288b50aa9efd6d40e1e04caa423a61",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "d490870b7676c3db2ef327995baba6a9",
-			"FullPackageHash": "6ebc985c65be2be89445c62b65767a65",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros",
-			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "86db5fda9b5b483c9747c95d944c3567",
-			"FullPackageHash": "2e5d190c798926298a2b2146db1eca8f",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane",
 			"CookedPackageName": "/Engine/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -543,26 +418,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/EditorBlueprintResources/ActorMacros",
-			"CookedPackageName": "/Engine/EditorBlueprintResources/ActorMacros",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "756ae43c6a9393aaf624dc950530b06e",
-			"FullPackageHash": "6efd46c6374250b60af133a6b6361830",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/EditorBlueprintResources/StandardMacros",
 			"CookedPackageName": "/Engine/EditorBlueprintResources/StandardMacros",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -721,24 +576,6 @@
 			"FullPackageHash": "80f2ce0dfe1c2e2315750fb41e9c0a01",
 			"DependencyData": [
 				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMaterials/AntialiasedGridFloor",
-			"CookedPackageName": "/Engine/EditorMaterials/AntialiasedGridFloor",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/AntialiasedGridFloor.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "bee3d985d6d970f7932f4be86bc98847",
-			"FullPackageHash": "0502fbe0a19baea13809f0f07bc0c268",
-			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
@@ -906,24 +743,6 @@
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMaterials/GridMaterial",
-			"CookedPackageName": "/Engine/EditorMaterials/GridMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/GridMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "31cb9e2dbf5749f626454486260fdb2a",
-			"FullPackageHash": "c4a720b5c12a75bd158c75fa21751d52",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -1273,25 +1092,6 @@
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMaterials/PersonaFloorMat",
-			"CookedPackageName": "/Engine/EditorMaterials/PersonaFloorMat",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/PersonaFloorMat.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "4e5a247d33ff3f6c317f0b44bb563876",
-			"FullPackageHash": "7853b3c54350ae90d926c8534bfda0a0",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -1915,23 +1715,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/EditorMeshes/PhAT_FloorBox",
-			"CookedPackageName": "/Engine/EditorMeshes/PhAT_FloorBox",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/PhAT_FloorBox.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "c0e4dac55bf406aad92ebf0868132859",
-			"FullPackageHash": "f25932f059ee0bf3945ab5de71859756",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/EditorResources/AI/S_NavLink",
 			"CookedPackageName": "/Engine/EditorResources/AI/S_NavLink",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -2536,40 +2319,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "a41aee37a7e573760ad64948b59ce685",
 			"FullPackageHash": "273b78f50ac7e6dc5017b063e9634ff6",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorResources/TilePatine_D",
-			"CookedPackageName": "/Engine/EditorResources/TilePatine_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/TilePatine_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "9f348a023841b41cd172801035e5f043",
-			"FullPackageHash": "276a244d5a7bb8ab460cab6faf478093",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorResources/TilePatine_N",
-			"CookedPackageName": "/Engine/EditorResources/TilePatine_N",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/TilePatine_N.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "5a76a0a39fc487ae052d3ad459cf208a",
-			"FullPackageHash": "f17a75cb457370cef4aae61576b46851",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -3897,165 +3646,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "eb5b30dfc02bddeac2bc303df6077cb5",
 			"FullPackageHash": "5d689fbf0950f979b4a43e34454c1748",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/BP_Sky_Sphere",
-			"CookedPackageName": "/Engine/EngineSky/BP_Sky_Sphere",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7edb841dd672e82b2baa9a896fd3bf4c",
-			"FullPackageHash": "9616f37b5e91e7b9b7b68b4cec64036b",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/C_Sky_Cloud_Color",
-			"CookedPackageName": "/Engine/EngineSky/C_Sky_Cloud_Color",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "972927ae29b98eafc7afbd97a3398526",
-			"FullPackageHash": "e1ae239c9c6fc1f6ec65eccf42c8fabe",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/C_Sky_Horizon_Color",
-			"CookedPackageName": "/Engine/EngineSky/C_Sky_Horizon_Color",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "6a6af74f5602c9bbeb060e42c8802fa6",
-			"FullPackageHash": "0bb5e6b7417c2b18d6e1eb20a6989713",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/C_Sky_Zenith_Color",
-			"CookedPackageName": "/Engine/EngineSky/C_Sky_Zenith_Color",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "33a5a44f551cef446eb04a4210a37de5",
-			"FullPackageHash": "be1e89a4ff765e5f189e1ba7d4722cdf",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/M_Sky_Panning_Clouds2",
-			"CookedPackageName": "/Engine/EngineSky/M_Sky_Panning_Clouds2",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "5650e892b18d25d1bd64c1c6d06e48af",
-			"FullPackageHash": "01992ab2c5c0e31d66954bee0f828a94",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/SM_SkySphere",
-			"CookedPackageName": "/Engine/EngineSky/SM_SkySphere",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/SM_SkySphere.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "4cfe60cdfbabdf7f2fc908b722277626",
-			"FullPackageHash": "f0fe0dd930d206156d5ad6bbba274a3d",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/T_Sky_Blue",
-			"CookedPackageName": "/Engine/EngineSky/T_Sky_Blue",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Blue.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "82905283f609a1c4abf899294ce1728a",
-			"FullPackageHash": "7441819ef84ca3b93e1ccb93bb17cee8",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/T_Sky_Clouds_M",
-			"CookedPackageName": "/Engine/EngineSky/T_Sky_Clouds_M",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "37c6661f2aceaa2105362caaf45dec87",
-			"FullPackageHash": "52b6df52a369771647e66abedcb1426e",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/T_Sky_Stars",
-			"CookedPackageName": "/Engine/EngineSky/T_Sky_Stars",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Stars.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "5341cd9cdb033b0717e7155fabb73b8d",
-			"FullPackageHash": "f06a76d705bb2fadf9a382e87ff5087b",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -5806,23 +5396,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands",
-			"CookedPackageName": "/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Tutorial/UMG/Specialized/AnimsForHands.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "d3af17ccedd4c7d6c1bdefa0d6852c68",
-			"FullPackageHash": "7099349f6b555f6f546c72c84da0318f",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/VREditor/UI/CloseButtonMesh",
 			"CookedPackageName": "/Engine/VREditor/UI/CloseButtonMesh",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6083,7 +5656,7 @@
 			"CookedPackageName": "/Game/Assets/Audio/Fire",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/Audio/Fire.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/Audio/Fire.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "5a53283923d2b41083a27013ddde58b6",
@@ -6100,7 +5673,7 @@
 			"CookedPackageName": "/Game/Assets/MenuBG",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/MenuBG.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/MenuBG.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "8bb714a49fb106ec7e79fbceb346fab8",
@@ -6117,7 +5690,7 @@
 			"CookedPackageName": "/Game/Assets/Meshes/BaseMaterial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/Meshes/BaseMaterial.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/Meshes/BaseMaterial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "b1957fe8174f430732fb759055b93d4f",
@@ -6136,7 +5709,7 @@
 			"CookedPackageName": "/Game/Assets/Meshes/BlueMaterial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/Meshes/BlueMaterial.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/Meshes/BlueMaterial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "c485e9899328bcb9bc2baf4e7b8934f0",
@@ -6155,7 +5728,7 @@
 			"CookedPackageName": "/Game/Assets/Meshes/OrangeMaterial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/Meshes/OrangeMaterial.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/Meshes/OrangeMaterial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "84c9f3ed7e04fd9b1476a193cd6a88be",
@@ -6174,7 +5747,7 @@
 			"CookedPackageName": "/Game/Assets/Meshes/Projectile",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/Meshes/Projectile.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/Meshes/Projectile.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "1b5cd3aa40f5507c850aeeb127648488",
@@ -6192,7 +5765,7 @@
 			"CookedPackageName": "/Game/Assets/Meshes/UFO",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Assets/Meshes/UFO.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/Assets/Meshes/UFO.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "0da18738d7643a31add095a1cb220cfd",
@@ -6206,550 +5779,11 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Geometry/Meshes/1M_Cube",
-			"CookedPackageName": "/Game/Geometry/Meshes/1M_Cube",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Geometry/Meshes/1M_Cube.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "889e81a27e498ac5ea884a1edc1c8fd2",
-			"FullPackageHash": "af54e9b2389db15fb503bd9ffa706aca",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Geometry/Meshes/1M_Cube_Chamfer",
-			"CookedPackageName": "/Game/Geometry/Meshes/1M_Cube_Chamfer",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a7aa9f5644c1f718c004fe0efbb5677c",
-			"FullPackageHash": "458670da46043d7378894dd6e8b679d1",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Geometry/Meshes/CubeMaterial",
-			"CookedPackageName": "/Game/Geometry/Meshes/CubeMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Geometry/Meshes/CubeMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e98e0c71babf884de754e0d56a22907e",
-			"FullPackageHash": "87af16abf4a428195bc3cb3fdefeed0c",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Animations/z1_move_back_left",
-			"CookedPackageName": "/Game/TposeZombie1/Animations/z1_move_back_left",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Animations/z1_move_back_left.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "5b7e1e9188f8cf1d296c18fc31708fb0",
-			"FullPackageHash": "10ef1c3fc1dcc20d34b7979ca4ae7310",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Animations/z1_move_forward_root",
-			"CookedPackageName": "/Game/TposeZombie1/Animations/z1_move_forward_root",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Animations/z1_move_forward_root.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "0d474073f51cf081bd5e4af3eae26664",
-			"FullPackageHash": "0f2ceeb33d38572ae779c0af25b5b7e0",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Materials/BodyMat",
-			"CookedPackageName": "/Game/TposeZombie1/Materials/BodyMat",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Materials/BodyMat.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a7ac9f8a1644dbccead406f6a52d9000",
-			"FullPackageHash": "4ec0d2b2b1344dfec53ea3d85ba2add7",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Materials/EyesMat",
-			"CookedPackageName": "/Game/TposeZombie1/Materials/EyesMat",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Materials/EyesMat.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e61f6d9ed60277a58306bfed57fd3287",
-			"FullPackageHash": "5df232ac525f2f768dbccdab8660fe55",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Meshes/z1Body",
-			"CookedPackageName": "/Game/TposeZombie1/Meshes/z1Body",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Meshes/z1Body.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "f967366caa8ada5aa81bd2bd9bfb5128",
-			"FullPackageHash": "dcddf61fa18edd4af8c4dee2d7a8ad22",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Meshes/z1Body_PhysicsAsset",
-			"CookedPackageName": "/Game/TposeZombie1/Meshes/z1Body_PhysicsAsset",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Meshes/z1Body_PhysicsAsset.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "58f793b1189215a0717409093f79e3be",
-			"FullPackageHash": "6b68241d53eb1821cb9c78d7c1f05d70",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Meshes/z1Body_Skeleton",
-			"CookedPackageName": "/Game/TposeZombie1/Meshes/z1Body_Skeleton",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Meshes/z1Body_Skeleton.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "58942e8dc73701df75567cc82894e4c8",
-			"FullPackageHash": "be112e6deb55ac02c134b389409d3fb1",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Textures/Body_Diff_4k",
-			"CookedPackageName": "/Game/TposeZombie1/Textures/Body_Diff_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Textures/Body_Diff_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e3d633cb30db3278bcf43bf57e5c0b50",
-			"FullPackageHash": "2ea6af419bd656bf0e024267ebb32c30",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Textures/Body_Normal_4k",
-			"CookedPackageName": "/Game/TposeZombie1/Textures/Body_Normal_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Textures/Body_Normal_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "8fbc6040ec7d0aec98e045db13f95a8e",
-			"FullPackageHash": "59101ccc92f92651f6ef94d8b8f81362",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Textures/Body_Spec_4k",
-			"CookedPackageName": "/Game/TposeZombie1/Textures/Body_Spec_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Textures/Body_Spec_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "88480b606236ea0fcf73983b350a6c36",
-			"FullPackageHash": "56e69ff15051630cdbbe4da5e98e0067",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/TposeZombie1/Textures/Body_Subsurface_4k",
-			"CookedPackageName": "/Game/TposeZombie1/Textures/Body_Subsurface_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Textures/Body_Subsurface_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "67554b3f81eaf8d2d8656a0b716ceb76",
-			"FullPackageHash": "c7331089fc9a1cc76acc80d42ca6a4de",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Animations/z2_attack2",
-			"CookedPackageName": "/Game/zombie2/Animations/z2_attack2",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Animations/z2_attack2.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "720397588cda433da735c9d372f4728c",
-			"FullPackageHash": "830f0cf2adb42d395c1f1e01b9e73e03",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Animations/z2_moveF",
-			"CookedPackageName": "/Game/zombie2/Animations/z2_moveF",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Animations/z2_moveF.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e171e171c9d9436929c755f0393f9cb3",
-			"FullPackageHash": "b09d4c7ee3afd616ecb65322cb550913",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Animations/z2_moveFL",
-			"CookedPackageName": "/Game/zombie2/Animations/z2_moveFL",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Animations/z2_moveFL.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e8f43d5d1be202e5c7f76dbecd57fd24",
-			"FullPackageHash": "6801de4183dac9ec5a53337f0c7ddbdd",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Animations/z2_reach_through_end",
-			"CookedPackageName": "/Game/zombie2/Animations/z2_reach_through_end",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Animations/z2_reach_through_end.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a94eb411e2081026c846d758e6c1e468",
-			"FullPackageHash": "6238ca429d648e755c221f260e2ad1bb",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Animations/z2_reach_through_start",
-			"CookedPackageName": "/Game/zombie2/Animations/z2_reach_through_start",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Animations/z2_reach_through_start.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "b3c8b0ee4d0fef6b3f058f8c014cc669",
-			"FullPackageHash": "f81425d7e2d3565d94e5d9c85b678633",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Materials/Z2_Body_Inst",
-			"CookedPackageName": "/Game/Zombie2/Materials/Z2_Body_Inst",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Materials/Z2_Body_Inst.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "fe8b1dd1be4df6b5abf7b1bdfd4ed03a",
-			"FullPackageHash": "b89e067e45b5cc476b298fa51060718d",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Materials/Z2_Body_Mat",
-			"CookedPackageName": "/Game/Zombie2/Materials/Z2_Body_Mat",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Materials/Z2_Body_Mat.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a1d8771c19190fdb831a2c9c4555e1ef",
-			"FullPackageHash": "33990950e674a90f2627f314cc162fe2",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Meshes/z2_body",
-			"CookedPackageName": "/Game/zombie2/Meshes/z2_body",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Meshes/z2_body.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "c541446906f5696d8e78aa7237b5240f",
-			"FullPackageHash": "4d283d33bb0f6c6d79a161e3c9fa31ec",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Meshes/z2_body_Physics",
-			"CookedPackageName": "/Game/Zombie2/Meshes/z2_body_Physics",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Meshes/z2_body_Physics.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "0e7ee9842aad410f9118750ff40023df",
-			"FullPackageHash": "944ab80690354ae778a33c17168806bb",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Meshes/z2_body_Skeleton",
-			"CookedPackageName": "/Game/Zombie2/Meshes/z2_body_Skeleton",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Meshes/z2_body_Skeleton.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "d40b131b5e8f3ef7b090041c830231c6",
-			"FullPackageHash": "dc8dbf749670fe99ec23cb8e1ff0c7f4",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/zombie2/Meshes/Zombie002AB",
-			"CookedPackageName": "/Game/zombie2/Meshes/Zombie002AB",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/zombie2/Meshes/Zombie002AB.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7b2ac3a2ba9c978d4c9ac6d49cce262d",
-			"FullPackageHash": "6afa3394bf8f23625b6078c77291395b",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/AnimGraph",
-				"/Script/AnimGraphRuntime",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Textures/Body_Rough_AO_4k",
-			"CookedPackageName": "/Game/Zombie2/Textures/Body_Rough_AO_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Textures/Body_Rough_AO_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a5a742fa8cf00119c73958ee90d29cd9",
-			"FullPackageHash": "1ec4bc2cd29020d7ec926362c7b68e44",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Textures/Z2_Body_Normals_4k",
-			"CookedPackageName": "/Game/Zombie2/Textures/Z2_Body_Normals_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Textures/Z2_Body_Normals_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "4ee9ef1bc64ed47dc54206ad719174c3",
-			"FullPackageHash": "96f9a9f0953d56c1639d30ccf8cf8f5a",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Textures/Z2_SkinBase_4k",
-			"CookedPackageName": "/Game/Zombie2/Textures/Z2_SkinBase_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Textures/Z2_SkinBase_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "dbd8036ef706bff708a31b264e4869dc",
-			"FullPackageHash": "4a68ae769015e0c040d63f796ca31aee",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Zombie2/Textures/Z2_SubSkin_4k",
-			"CookedPackageName": "/Game/Zombie2/Textures/Z2_SubSkin_4k",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Zombie2/Textures/Z2_SubSkin_4k.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "423146425386866752301fed8fb17c0b",
-			"FullPackageHash": "938f4a62ef404a4c34dc3b680f37d196",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/ZombieCity/Blueprints/NewBlueprint",
-			"CookedPackageName": "/Game/ZombieCity/Blueprints/NewBlueprint",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7ca3e425872e3cca3ca70b99dffd297b",
-			"FullPackageHash": "af20b623edde79bcbb6e887c06a5096b",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/ZombieCity/Blueprints/Projectile",
 			"CookedPackageName": "/Game/ZombieCity/Blueprints/Projectile",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Projectile.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Projectile.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "a84c54dea4a36ba8dcc9be7597fe51a5",
@@ -6769,7 +5803,7 @@
 			"CookedPackageName": "/Game/ZombieCity/Blueprints/ZombieCityGameMode",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/ZombieCityGameMode.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/ZombieCityGameMode.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "ace17c826ab0a7918e5709c84ce15131",
@@ -6789,7 +5823,7 @@
 			"CookedPackageName": "/Game/ZombieCity/Blueprints/ZombieCityPawn",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/ZombieCityPawn.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/ZombieCityPawn.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "9f1ec53a80623b4ee963396ccc13741e",
@@ -6808,72 +5842,11 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/ZombieCity/Blueprints/Zoobie001",
-			"CookedPackageName": "/Game/ZombieCity/Blueprints/Zoobie001",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "c709211721914efdd7d9fe297f367e7b",
-			"FullPackageHash": "84516124ad2740fcac6befc43027fe74",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/AIGraph",
-				"/Script/AIModule",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/ZombieCity/Maps/MainMap",
-			"CookedPackageName": "/Game/ZombieCity/Maps/MainMap",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a076336fc64bdca416bb5f66ecc525e5",
-			"FullPackageHash": "97c33de726a47349f4789808d46880a2",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/AIModule",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/Foliage",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/ZombieCity/Maps/MainMap_BuiltData",
-			"CookedPackageName": "/Game/ZombieCity/Maps/MainMap_BuiltData",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "af6ea2723e3597589b91245e2eb9fb17",
-			"FullPackageHash": "c4be0c50ba1d68cc52a27fbf865a3861",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/ZombieCity/Maps/UIMap",
 			"CookedPackageName": "/Game/ZombieCity/Maps/UIMap",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/UIMap.umap",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "9296076192c3910780592898ae5ea1c9",
@@ -6895,11 +5868,11 @@
 			"CookedPackageName": "/Game/ZombieCity/Maps/UIMap_BuiltData",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "23668f9c7a6d8be4b7541a23e2dfe9b3",
-			"FullPackageHash": "985c8e144ea71910ff11a652597b92a4",
+			"DependentPackageHash": "88da70cc0fd2520df182ca7633fadb69",
+			"FullPackageHash": "d466fb19d98bffd8f14c25478a7faae2",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -6912,7 +5885,7 @@
 			"CookedPackageName": "/Game/ZombieCity/ui/MainMenuWidget",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/ui/MainMenuWidget.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/MainMenuWidget.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
 			"DependentPackageHash": "d89a554fbcfb786c9cb94ef33540fc91",
@@ -6933,11 +5906,11 @@
 			"CookedPackageName": "/Game/ZombieCity/ui/PauseMenuWidget",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset",
+			"ResolvedRelativePath": "E:/Program/Git/Zombie-City/ZombieCity/Content/ZombieCity/ui/PauseMenuWidget.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "750ce3fd47d84e40188dcf93a9db7526",
-			"FullPackageHash": "cf70451e86d4ad97d1ed47182320a1b1",
+			"DependentPackageHash": "01f88a247e7a0d42d339b3472714e283",
+			"FullPackageHash": "419a7ba8d85c2407083ae42cb9f35c99",
 			"DependencyData": [
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
@@ -6945,48 +5918,6 @@
 				"/Script/SlateCore",
 				"/Script/UMG",
 				"/Script/UMGEditor"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
-			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "5118c2dbc9f0202e6075e9138e7776af",
-			"FullPackageHash": "6cce638b46ac228277e18622b5dc1c89",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "da677a155d4c4eb4b2882c416717fc0c",
-			"FullPackageHash": "d5c3cc74d42e5a57b1d215be2c7eba20",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -7001,6 +5932,69 @@
 			"SucceededSave": "false",
 			"DependentPackageHash": "5cbcd0a20cb360cb23d8c5d5aca452f2",
 			"FullPackageHash": "4cf4bb66ff14ae9900fb889d540f8f28",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "e57265084346949f9d163af4b1395796",
+			"FullPackageHash": "1f68201605e07f87c11908c512377f54",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "e78fdfae30394032d883ea8565d74d69",
+			"FullPackageHash": "f85d7a5026b43446a3fb5438b8e7a005",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
+			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "5118c2dbc9f0202e6075e9138e7776af",
+			"FullPackageHash": "6cce638b46ac228277e18622b5dc1c89",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -7087,27 +6081,6 @@
 			"SucceededSave": "false",
 			"DependentPackageHash": "2e15300dc5520caf70330c32d1b75922",
 			"FullPackageHash": "6ca97a755601b32c474353b3fb214b04",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "e57265084346949f9d163af4b1395796",
-			"FullPackageHash": "1f68201605e07f87c11908c512377f54",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -7246,6 +6219,27 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "f61cf648393a2397f4b0a30e2271d3a4",
+			"FullPackageHash": "fbd232876d2c3288ae574161c78cc5a3",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
 			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -7288,15 +6282,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "46b87a79dff4595d25573f38b51b7783",
-			"FullPackageHash": "17e0dfc79bd1d8d4fd16ffed4cf870de",
+			"DependentPackageHash": "80ee177443711b70171105900ae58fb2",
+			"FullPackageHash": "0c67253d801b2958a936356a0e2def8f",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -7330,57 +6324,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "f61cf648393a2397f4b0a30e2271d3a4",
-			"FullPackageHash": "fbd232876d2c3288ae574161c78cc5a3",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "80ee177443711b70171105900ae58fb2",
-			"FullPackageHash": "0c67253d801b2958a936356a0e2def8f",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "e78fdfae30394032d883ea8565d74d69",
-			"FullPackageHash": "f85d7a5026b43446a3fb5438b8e7a005",
+			"DependentPackageHash": "da677a155d4c4eb4b2882c416717fc0c",
+			"FullPackageHash": "d5c3cc74d42e5a57b1d215be2c7eba20",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -7402,6 +6354,27 @@
 			"SucceededSave": "false",
 			"DependentPackageHash": "f15951b0851da1b3635adebbe46daa88",
 			"FullPackageHash": "53aeb738d00dc0efe180e887577023d7",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "46b87a79dff4595d25573f38b51b7783",
+			"FullPackageHash": "17e0dfc79bd1d8d4fd16ffed4cf870de",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",

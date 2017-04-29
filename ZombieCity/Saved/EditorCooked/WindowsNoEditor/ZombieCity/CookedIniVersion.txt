@@ -2282,12 +2282,12 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:TargetedHardw
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwareClass:0=Desktop
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
-Windows.Engine:WindowsApplication.Accessibility:StickyKeysHotkey:0=True
-Windows.Engine:WindowsApplication.Accessibility:ToggleKeysHotkey:0=True
-Windows.Engine:WindowsApplication.Accessibility:FilterKeysHotkey:0=True
-Windows.Engine:WindowsApplication.Accessibility:StickyKeysConfirmation:0=True
-Windows.Engine:WindowsApplication.Accessibility:ToggleKeysConfirmation:0=True
-Windows.Engine:WindowsApplication.Accessibility:FilterKeysConfirmation:0=True
+Windows.Engine:WindowsApplication.Accessibility:StickyKeysHotkey:0=False
+Windows.Engine:WindowsApplication.Accessibility:ToggleKeysHotkey:0=False
+Windows.Engine:WindowsApplication.Accessibility:FilterKeysHotkey:0=False
+Windows.Engine:WindowsApplication.Accessibility:StickyKeysConfirmation:0=False
+Windows.Engine:WindowsApplication.Accessibility:ToggleKeysConfirmation:0=False
+Windows.Engine:WindowsApplication.Accessibility:FilterKeysConfirmation:0=False
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ZombieCity/Maps/UIMap.UIMap
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ZombieCity/Blueprints/ZombieCityGameMode.ZombieCityGameMode_C
@@ -2510,17 +2510,6 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:HistoryColor:0=(R=180,G=180
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=(B=185,G=109,R=144,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
 Windows.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
 Windows.Game:DefaultPlayer:Name:0=Player
 Windows.Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
@@ -2559,6 +2548,17 @@ Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=A64AE3F941FFD7773CED07BB4B9C1053
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
 Windows.Game:/Script/Engine.HUD:DebugDisplay:0=AI
 Windows.Game:/Script/Engine.PlayerController:InputYawScale:0=2.5
 Windows.Game:/Script/Engine.PlayerController:InputPitchScale:0=-1.75
@@ -2593,22 +2593,9 @@ Windows.Game:/Script/AIModule.EnvQueryManager:MaxAllowedTestingTime:0=0.01
 Windows.Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
 Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
 Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
-Windows.Editor:EditorLayouts:NullLayout:0=(\
-	"Type": "Layout",\
-	"Name": "NullLayout",\
-	"PrimaryAreaIndex": 0,\
-	"Areas": [\
-		(\
-			"SizeCoefficient": 1,\
-			"Type": "Area",\
-			"Orientation": "Orient_Horizontal",\
-			"WindowPlacement": "Placement_NoWindow",\
-			"Nodes": []\
-		)\
-	]\
-)
+Windows.Editor:EditorLayouts:NullLayout:0=( 	"Type": "Layout", 	"Name": "NullLayout", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Horizontal", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [] 		) 	] )
 Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Designer_Layout_v4_1", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.20000000298023224, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 0.69999998807907104, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "WidgetTemplates", 									"Tabs": [ 										( 											"TabId": "WidgetTemplates", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SlateHierarchy", 									"Tabs": [ 										( 											"TabId": "SlateHierarchy", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.62962961196899414, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "SlatePreview", 							"Tabs": [ 								( 									"TabId": "SlatePreview", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.22037036716938019, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "WidgetDetails", 							"Tabs": [ 								( 									"TabId": "WidgetDetails", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				), 				( 					"SizeCoefficient": 0.30000001192092896, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Animations", 							"Tabs": [ 								( 									"TabId": "Animations", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.85000002384185791, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Sequencer", 							"Tabs": [ 								( 									"TabId": "Sequencer", 									"TabState": "OpenedTab" 								), 								( 									"TabId": "CompilerResults", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
-Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Graph_Layout_v1", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.17950113117694855, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "MyBlueprint", 									"Tabs": [ 										( 											"TabId": "MyBlueprint", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Inspector", 									"Tabs": [ 										( 											"TabId": "Inspector", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.67049890756607056, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.80000001192092896, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Document : 1", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.20000000298023224, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "CompilerResults", 									"Tabs": [ 										( 											"TabId": "CompilerResults", 											"TabState": "OpenedTab" 										), 										( 											"TabId": "FindResults", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "None", 							"Tabs": [ 								( 									"TabId": "PaletteList", 									"TabState": "ClosedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Graph_Layout_v1", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.17950113117694855, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "MyBlueprint", 									"Tabs": [ 										( 											"TabId": "MyBlueprint", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Inspector", 									"Tabs": [ 										( 											"TabId": "Inspector", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.67049890756607056, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.80000001192092896, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Document : 2", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.20000000298023224, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "CompilerResults", 									"Tabs": [ 										( 											"TabId": "CompilerResults", 											"TabState": "OpenedTab" 										), 										( 											"TabId": "FindResults", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "None", 							"Tabs": [ 								( 									"TabId": "PaletteList", 									"TabState": "ClosedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
