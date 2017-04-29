@@ -1,0 +1,659 @@
+﻿Log file open, 04/21/17 13:25:42
+LogInit:Display: Running engine for game: ZombieCity
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(239067840) SRandInit(239067840).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107161
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.21-03.55.43:774][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.21-03.55.43:774][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.21-03.55.43:811][  0]LogInit: Computer: LIZHANG
+[2017.04.21-03.55.43:811][  0]LogInit: User: wanly102
+[2017.04.21-03.55.43:811][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.21-03.55.43:811][  0]LogInit: High frequency timer resolution =2.533198 MHz
+[2017.04.21-03.55.43:812][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.21-03.55.43:812][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.21-03.55.43:812][  0]LogMemory: Process Physical Memory: 261.80 MB used, 261.80 MB peak
+[2017.04.21-03.55.43:812][  0]LogMemory: Process Virtual Memory: 262.17 MB used, 262.17 MB peak
+[2017.04.21-03.55.43:812][  0]LogMemory: Physical Memory: 3002.25 MB used,  5070.71 MB free, 8072.96 MB total
+[2017.04.21-03.55.43:812][  0]LogMemory: Virtual Memory: 642.59 MB used,  5070.71 MB free, 134217728.00 MB total
+[2017.04.21-03.55.43:979][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
+[2017.04.21-03.55.43:979][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
+这个节点)
+[2017.04.21-03.55.43:979][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
+[2017.04.21-03.55.44:424][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.21-03.55.45:048][  0]LogD3D11RHI:    0. 'AMD Radeon R7 M265' (Feature Level 11_0)
+[2017.04.21-03.55.45:048][  0]LogD3D11RHI:       2035/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.21-03.55.45:056][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.04.21-03.55.45:056][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.21-03.55.45:058][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.21-03.55.45:058][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.21-03.55.45:058][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.21-03.55.45:065][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.21-03.55.45:065][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.21-03.55.45:065][  0]LogWindows: EnumDisplayDevices:
+[2017.04.21-03.55.45:066][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.04.21-03.55.45:066][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.04.21-03.55.45:066][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.04.21-03.55.45:067][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.21-03.55.45:067][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M265
+[2017.04.21-03.55.45:067][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.21-03.55.45:067][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.21-03.55.45:067][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.21-03.55.45:750][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.21-03.55.45:765][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.21-03.55.45:766][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Intermediate/Shaders/WorkingDirectory/12336/).
+[2017.04.21-03.55.45:767][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jicheng/AppData/Local/Temp/UnrealShaderWorkingDir/5DB316E841AEA76165A668A873A8C18B/'.
+[2017.04.21-03.55.45:767][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.21-03.55.47:207][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.21-03.55.47:287][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.21-03.55.47:362][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.21-03.55.47:442][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.21-03.55.47:528][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.21-03.55.47:603][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.21-03.55.47:686][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.21-03.55.47:768][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.21-03.55.47:832][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.21-03.55.47:909][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.21-03.55.47:987][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.21-03.55.48:061][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.21-03.55.48:144][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.21-03.55.48:219][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.21-03.55.48:291][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.21-03.55.48:443][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.21-03.55.48:443][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.21-03.55.48:499][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.21-03.55.48:628][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.21-03.55.48:676][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.21-03.55.48:753][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.21-03.55.48:829][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.21-03.55.48:901][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.21-03.55.48:977][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.21-03.55.48:977][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.21-03.55.49:629][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.21-03.55.49:696][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/jicheng/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.21-03.55.49:696][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jicheng/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.21-03.55.49:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.21-03.55.49:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.21-03.55.49:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.21-03.55.49:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.21-03.55.49:718][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.21-03.55.49:731][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jicheng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.21-03.55.49:743][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.21-03.55.49:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.21-03.55.49:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.21-03.55.50:176][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.21-03.55.50:181][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.21-03.55.50:540][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.21-03.55.50:612][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.21-03.55.50:684][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.21-03.55.50:684][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.21-03.55.50:684][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.21-03.55.51:460][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: zombiecity, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 270151773
+[2017.04.21-03.55.51:521][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.04.21-03.55.51:715][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.159432 seconds
+[2017.04.21-03.55.51:722][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.21-03.55.51:722][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.21-03.55.51:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.21-03.55.51:814][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.21-03.55.54:262][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.21-03.55.54:321][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.21-03.55.55:102][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.21-03.55.55:781][  0]SourceControl: 信息 源码控制已禁用
+[2017.04.21-03.55.55:783][  0]SourceControl: 信息 源码控制已禁用
+[2017.04.21-03.55.55:866][  0]SourceControl: 信息 源码控制已禁用
+[2017.04.21-03.55.55:952][  0]SourceControl: 信息 源码控制已禁用
+[2017.04.21-03.55.56:536][  0]LogLinker:Warning: 无法寻找到文件'/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.04.21-03.55.56:536][  0]LogLinker:Warning: 无法寻找到文件'/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.04.21-03.55.56:536][  0]LogUObjectGlobals:Warning: 寻找对象'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'失败
+[2017.04.21-03.55.58:191][  0]LogEngine: Initializing Engine...
+[2017.04.21-03.55.58:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.21-03.55.58:513][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.21-03.55.58:522][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.21-03.55.58:733][  0]LogInit: FAudioDevice initialized.
+[2017.04.21-03.55.58:765][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jicheng/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.21-03.55.58:775][  0]LogInit: Texture streaming: Enabled
+[2017.04.21-03.55.58:917][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.21-03.55.59:057][  0]LogInit: Transaction tracking system initialized
+[2017.04.21-03.55.59:579][  0]BlueprintLog: New page: 编辑器加载
+[2017.04.21-03.56.00:974][  0]LocalizationService: 信息 本地化服务已被禁用
+[2017.04.21-03.56.02:246][  0]LogConsoleResponse:Display: 
+[2017.04.21-03.56.02:435][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.21-03.56.02:435][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.21-03.56.02:900][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/' took 0.01s
+[2017.04.21-03.56.04:162][  0]SourceControl: 信息 源码控制已禁用
+[2017.04.21-03.56.04:162][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/UIMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.21-03.56.04:163][  0]LightingResults: New page: 光照构建
+[2017.04.21-03.56.04:228][  0]MapCheck: New page: 地图检测
+[2017.04.21-03.56.04:228][  0]LightingResults: New page: 光照构建
+[2017.04.21-03.56.04:534][  0]LogAIModule: Creating AISystem for world UIMap
+[2017.04.21-03.56.04:582][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.21-03.56.04:582][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.21-03.56.04:626][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时44.216毫秒完成。
+[2017.04.21-03.56.04:626][  0]LogFileHelpers: Loading map 'UIMap' took 0.464
+[2017.04.21-03.56.04:723][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-03.56.04:723][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-03.56.04:881][  0]LogCollectionManager: Loaded 1 collections in 0.003563 seconds
+[2017.04.21-03.56.05:027][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Collections/' took 0.01s
+[2017.04.21-03.56.05:027][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Developers/wanly102/Collections/' took 0.01s
+[2017.04.21-03.56.05:027][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Collections/' took 0.01s
+[2017.04.21-03.56.05:027][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2017.04.21-03.56.05:027][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.04.21-03.56.05:038][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2245 classes and 453 folders.
+[2017.04.21-03.56.05:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.21-03.56.05:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.21-03.56.05:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.21-03.56.05:246][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.21-03.56.05:309][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.21-03.56.05:437][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.21-03.56.05:446][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2017.04.21-03.56.05:545][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.21-03.56.05:545][  0]LogLoad: (Engine Initialization) Total time: 25.28 seconds
+[2017.04.21-03.56.05:545][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.04.21-03.56.05:545][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.21-03.56.05:545][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.21-03.56.05:565][  0]LogOcInput: OculusInput pre-init called
+[2017.04.21-03.56.05:598][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.04.21-03.56.05:599][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.21-03.56.05:608][  0]LogSlate: Took 0.004057 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.21-03.56.05:610][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.21-03.56.05:616][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.21-03.56.05:726][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.21-03.56.05:786][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/' took 0.21s
+[2017.04.21-03.56.05:788][  1]LogRenderer: Reallocating scene render targets to support 792x440 NumSamples 1 (Frame:2).
+[2017.04.21-03.56.05:804][  1]LogAssetRegistry: Asset discovery search completed in 14.3054 seconds
+[2017.04.21-03.56.05:804][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000007 seconds (found 0 objects)
+[2017.04.21-03.56.05:804][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000039 seconds (updated 0 objects)
+[2017.04.21-03.57.04:033][251]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.21-03.57.04:996][251]LogSlate: Took 0.000742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.21-03.57.05:796][251]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0035 seconds. Added 112 classes and 0 folders.
+[2017.04.21-03.57.13:256][351]LogSlate: Took 0.000646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.21-03.57.14:758][376]LogSlate: Took 0.000586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.21-03.57.43:571][542]LogRenderer: Reallocating scene render targets to support 912x684 NumSamples 1 (Frame:3901).
+[2017.04.21-03.58.51:831][346]Cmd: MODE GRID=0
+[2017.04.21-03.59.26:931][660]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.21-03.59.34:763][ 19]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_sitting_loop.z1_sitting_loop
+[2017.04.21-04.00.05:141][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_hit_knockback.z1_hit_knockback
+[2017.04.21-04.00.11:420][241]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_hit_gut.z1_hit_gut
+[2017.04.21-04.00.16:101][317]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_hit_front.z1_hit_front
+[2017.04.21-04.00.20:418][396]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_emerge_from_grave.z1_emerge_from_grave
+[2017.04.21-04.01.07:577][675]BlueprintLog: New page: 编译NewBlueprint_Child
+[2017.04.21-04.01.18:526][ 11]LogTemp: Repeting last play command: 独立窗口运行
+[2017.04.21-04.01.22:122][ 11]LogSavePackage: Save=48.38ms
+[2017.04.21-04.01.22:122][ 11]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/NewBlueprint_Child69D91B3546263A9460E33FA791E08A98.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint_Child.uasset'
+[2017.04.21-04.01.22:140][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint_Child.uasset
+[2017.04.21-04.01.22:417][ 11]LogSavePackage: Save=155.75ms
+[2017.04.21-04.01.22:417][ 11]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/UEDPCUIMapD5D494614C9B7D7BB9E8648AF649E961.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.04.21-04.01.22:429][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.04.21-04.01.22:445][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.04.21-04.01.22:506][ 11]LogSavePackage: Save=26.49ms
+[2017.04.21-04.01.22:506][ 11]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/UIMap_BuiltDataFC7BE8574A44C78D6F90CF9AE5E1362D.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.04.21-04.01.22:514][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.04.21-04.01.22:521][ 11]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.21-04.03.11:257][647]LogAIModule: Creating AISystem for world MainMap
+[2017.04.21-04.03.11:339][647]Cmd: MAP LOAD FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.21-04.03.11:339][647]LightingResults: New page: 光照构建
+[2017.04.21-04.03.11:342][647]LoadErrors: New page: 正在加载地图： MainMap.umap
+[2017.04.21-04.03.11:342][647]MapCheck: New page: 地图检测
+[2017.04.21-04.03.11:342][647]LightingResults: New page: 光照构建
+[2017.04.21-04.03.11:536][647]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.21-04.03.11:585][647]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.21-04.03.11:669][647]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时83.601毫秒完成。
+[2017.04.21-04.03.11:669][647]LogFileHelpers: Loading map 'MainMap' took 0.331
+[2017.04.21-04.03.24:245][345]LogTemp: Repeting last play command: 独立窗口运行
+[2017.04.21-04.03.24:722][345]LogSavePackage: Save=228.20ms
+[2017.04.21-04.03.24:722][345]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/UEDPCMainMap832FAECC407DBB767E77689294558C00.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.04.21-04.03.24:730][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.04.21-04.03.25:995][345]LogSavePackage: Save=1117.56ms
+[2017.04.21-04.03.25:995][345]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/MainMap_BuiltData0A3C20C84F57B51FE2E99EA06922EB25.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.04.21-04.03.26:009][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.04.21-04.03.26:023][345]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.21-04.06.04:444][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_back_root.z1_move_back_root
+[2017.04.21-04.06.05:338][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_back_right_root.z1_move_back_right_root
+[2017.04.21-04.06.06:228][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_reach_through_start.z1_reach_through_start
+[2017.04.21-04.06.07:262][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_reach_through_loop.z1_reach_through_loop
+[2017.04.21-04.06.07:898][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_right_root.z1_move_right_root
+[2017.04.21-04.06.08:786][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_left_root.z1_move_left_root
+[2017.04.21-04.06.09:667][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_forward_right_root.z1_move_forward_right_root
+[2017.04.21-04.06.10:548][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_forward_left_root.z1_move_forward_left_root
+[2017.04.21-04.06.11:455][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_hit_right.z1_hit_right
+[2017.04.21-04.06.12:159][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_hit_left.z1_hit_left
+[2017.04.21-04.06.12:885][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_idle_alert.z1_idle_alert
+[2017.04.21-04.06.15:385][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_laying_loop.z1_laying_loop
+[2017.04.21-04.06.16:684][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_sitting_to_idle.z1_sitting_to_idle
+[2017.04.21-04.06.22:543][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_laying_to_idle.z1_laying_to_idle
+[2017.04.21-04.06.27:670][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_move_back_left_root.z1_move_back_left_root
+[2017.04.21-04.06.28:742][729]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TposeZombie1/Animations/z1_hit_back.z1_hit_back
+[2017.04.21-04.06.31:039][729]LogTexture:Display: Building textures: Pants_Normal_2k (AutoDXT, 2048X2048) - 101 MB total VRAM
+[2017.04.21-04.06.36:023][729]LogMaterial: Missing cached shader map for material PantsMat, compiling. 
+[2017.04.21-04.06.36:026][729]LogTemp:Display: Added material ShaderMap 0x000001D580F3D600 with Material 0x000001D57536BE80 to ShaderMapsBeingCompiled
+[2017.04.21-04.06.36:236][729]LogTemp:Display: Kicking off shader compilation for PantsMat, GameThreadShaderMap 0x000001D580F3D600
+[2017.04.21-04.06.36:258][729]LogMaterial: Missing cached shader map for material SkullMat, compiling. 
+[2017.04.21-04.06.36:262][729]LogTemp:Display: Added material ShaderMap 0x000001D588426080 with Material 0x000001D55C61A680 to ShaderMapsBeingCompiled
+[2017.04.21-04.06.36:468][729]LogTemp:Display: Kicking off shader compilation for SkullMat, GameThreadShaderMap 0x000001D588426080
+[2017.04.21-04.06.36:476][729]LogAIModule: Creating AISystem for world Overview_Map
+[2017.04.21-04.06.36:478][729]LogActorComponent: RegisterComponentWithWorld: (/Game/TposeZombie1/Overview_Map.Overview_Map:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.21-04.06.39:945][729]LogSavePackage: Save=277.49ms
+[2017.04.21-04.06.39:945][729]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/MainMap5620907747BB71528CF609849AEDA83B.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap'
+[2017.04.21-04.06.39:968][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap
+[2017.04.21-04.06.40:018][729]LogFileHelpers: Saving map 'MainMap' took 0.558
+[2017.04.21-04.06.40:020][729]Cmd: MAP LOAD FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/TposeZombie1/Overview_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.21-04.06.40:020][729]LightingResults: New page: 光照构建
+[2017.04.21-04.06.40:023][729]LoadErrors: New page: 正在加载地图： Overview_Map.umap
+[2017.04.21-04.06.40:089][729]MapCheck: New page: 地图检测
+[2017.04.21-04.06.40:089][729]LightingResults: New page: 光照构建
+[2017.04.21-04.06.40:385][729]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.21-04.06.40:437][729]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.21-04.06.40:535][729]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时98.133毫秒完成。
+[2017.04.21-04.06.40:535][729]LogFileHelpers: Loading map 'Overview_Map' took 0.517
+[2017.04.21-04.06.43:960][906]LogTemp: Repeting last play command: 独立窗口运行
+[2017.04.21-04.06.44:482][906]LogSavePackage: Save=132.58ms
+[2017.04.21-04.06.44:482][906]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/UEDPCOverview_MapCFA0F87745A3DD7FF1AC3B98D4BAC924.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/TposeZombie1/UEDPCOverview_Map.umap'
+[2017.04.21-04.06.44:491][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/TposeZombie1/UEDPCOverview_Map.umap
+[2017.04.21-04.06.44:504][906]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.21-04.07.05:240][238]LogTemp:Display: Finished compile of shader map 0x000001D580F3D600
+[2017.04.21-04.07.05:240][238]LogTemp:Display: Shader map PantsMat complete, GameThreadShaderMap 0x000001D580F3D600, marking material PantsMat as finished
+[2017.04.21-04.07.05:240][238]LogTemp:Display: Marking material as finished 0x000001D57536BE80
+[2017.04.21-04.07.38:337][334]LogTemp:Display: Finished compile of shader map 0x000001D588426080
+[2017.04.21-04.07.38:337][334]LogTemp:Display: Shader map SkullMat complete, GameThreadShaderMap 0x000001D588426080, marking material SkullMat as finished
+[2017.04.21-04.07.38:337][334]LogTemp:Display: Marking material as finished 0x000001D55C61A680
+[2017.04.21-04.07.51:155][826]LogAIModule: Creating AISystem for world MainMap
+[2017.04.21-04.07.51:210][826]Cmd: MAP LOAD FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.21-04.07.51:211][826]LightingResults: New page: 光照构建
+[2017.04.21-04.07.51:213][826]LoadErrors: New page: 正在加载地图： MainMap.umap
+[2017.04.21-04.07.51:221][826]MapCheck: New page: 地图检测
+[2017.04.21-04.07.51:221][826]LightingResults: New page: 光照构建
+[2017.04.21-04.07.51:411][826]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.21-04.07.51:459][826]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.21-04.07.51:549][826]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时89.222毫秒完成。
+[2017.04.21-04.07.51:549][826]LogFileHelpers: Loading map 'MainMap' took 0.339
+[2017.04.21-04.08.48:689][924]BlueprintLog: New page: 编译Zoobie001
+[2017.04.21-04.08.48:699][924]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.08.48:699][924]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.08.48:699][924]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.08.48:699][924]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.09.40:910][705]BlueprintLog: New page: 编译Zoobie001
+[2017.04.21-04.09.54:050][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.21-04.10.11:229][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.21-04.10.13:392][201]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2017.04.21-04.10.14:314][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.21-04.10.15:185][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.21-04.10.18:121][395]LogEditorViewport: Clicking on Actor (LMB): Zoobie001_C (Zoobie2)
+[2017.04.21-04.10.28:745][942]BlueprintLog: New page: 编译MainMap
+[2017.04.21-04.10.30:031][994]LogTemp: Repeting last play command: 独立窗口运行
+[2017.04.21-04.10.32:893][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zoobie001" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset" SILENT=true
+[2017.04.21-04.10.32:970][994]LogSavePackage: Save=39.76ms
+[2017.04.21-04.10.32:970][994]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Zoobie00105BFF1124EE6FF090190F7ADB79A421F.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset'
+[2017.04.21-04.10.32:986][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset
+[2017.04.21-04.10.33:323][994]LogSavePackage: Save=230.47ms
+[2017.04.21-04.10.33:323][994]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/UEDPCMainMapB190BB234215FE5286F783A158A6D4C1.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.04.21-04.10.33:333][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.04.21-04.10.33:857][994]LogSavePackage: Save=474.80ms
+[2017.04.21-04.10.33:857][994]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/MainMap_BuiltData5D02BAA1450BEE41C57137B514F004B1.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.04.21-04.10.33:865][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.04.21-04.10.33:871][994]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.21-04.17.51:677][662]LogSavePackage: Save=245.64ms
+[2017.04.21-04.17.51:677][662]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/MainMap_Auto1B8BFD6DF4362A9A90C308E8DFEFBC7D2.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto1.umap'
+[2017.04.21-04.17.51:686][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto1.umap
+[2017.04.21-04.17.51:694][662]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/MainMap' took 0.387
+[2017.04.21-04.17.51:694][662]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.387
+[2017.04.21-04.17.51:702][662]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/Zoobie001] ([1] browsable assets)...
+[2017.04.21-04.17.51:741][662]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/Zoobie001.Zoobie001]
+[2017.04.21-04.17.51:741][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/Zoobie001]
+[2017.04.21-04.17.51:812][662]LogSavePackage: Save=41.51ms
+[2017.04.21-04.17.51:812][662]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Zoobie001_Auto19D03543D4D84E9627C292CB3AE425BD6.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zoobie001_Auto1.uasset'
+[2017.04.21-04.17.51:903][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zoobie001_Auto1.uasset
+[2017.04.21-04.17.51:904][662]LogFileHelpers: Auto-saving content packages took 0.208
+[2017.04.21-04.23.24:237][205]BlueprintLog: New page: 编译Zoobie001
+[2017.04.21-04.23.24:252][205]LogBlueprint:Error: [Compiler Zoobie001] 错误  Object 的类型尚未确定。  连接到 类型转换为 Character  的内容预示是一种特定类型。
+[2017.04.21-04.23.24:252][205]LogBlueprint:Error: [Compiler Zoobie001] 错误 ' Object '引脚的当前值是无效的：Unsupported type Object 通配符 on pin Object
+[2017.04.21-04.23.24:272][205]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.23.24:272][205]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.23.24:272][205]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.23.24:272][205]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_3.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.04.21-04.23.27:076][205]BlueprintEditorCompileResults:Error: 错误  Object 的类型尚未确定。  连接到 类型转换为 Character  的内容预示是一种特定类型。
+[2017.04.21-04.23.27:077][205]BlueprintEditorCompileResults:Error: 错误 ' Object '引脚的当前值是无效的：Unsupported type Object 通配符 on pin Object
+[2017.04.21-04.23.27:080][205]LogBlueprint:Warning: [Compiler Zoobie001] 警告 [1666.82] Compile of Zoobie001 failed. 2 Fatal Issue(s) 0 Warning(s) [in 2,841 ms] (/Game/ZombieCity/Blueprints/Zoobie001.Zoobie001)
+[2017.04.21-04.24.18:625][127]BlueprintLog: New page: 编译Zoobie001
+[2017.04.21-04.24.23:190][269]LogTemp: Repeting last play command: 独立窗口运行
+[2017.04.21-04.24.25:563][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zoobie001" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset" SILENT=true
+[2017.04.21-04.24.25:795][269]LogSavePackage: Save=133.41ms
+[2017.04.21-04.24.25:795][269]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Zoobie001B98A13954DEAC00F5D7DF0ADD8DFD807.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset'
+[2017.04.21-04.24.25:850][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset
+[2017.04.21-04.24.26:759][269]LogSavePackage: Save=665.63ms
+[2017.04.21-04.24.26:759][269]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/UEDPCMainMap90799F944D032A4243F1228B78790616.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.04.21-04.24.26:786][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.04.21-04.24.27:517][269]LogSavePackage: Save=606.56ms
+[2017.04.21-04.24.27:517][269]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/MainMap_BuiltDataB9AA72EC4D16115367FA4D87EFD0F468.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.04.21-04.24.27:528][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.04.21-04.24.27:537][269]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.21-04.26.48:073][966]LogSavePackage: Save=726.66ms
+[2017.04.21-04.26.48:074][966]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/MainMapD60176E04AB683BB09A79A8CF095C0B2.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap'
+[2017.04.21-04.26.48:131][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/ZombieCity/Maps/MainMap.umap
+[2017.04.21-04.26.48:285][966]LogFileHelpers: Saving map 'MainMap' took 1.340
+[2017.04.21-04.26.48:469][966]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-04.26.48:472][966]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-04.26.48:481][966]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-04.26.48:484][966]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-04.26.48:927][967]Cmd: QUIT_EDITOR
+[2017.04.21-04.26.49:023][967]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-04.26.49:025][967]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.04.21-04.26.49:084][967]LogExit: Preparing to exit.
+[2017.04.21-04.26.49:778][967]LogDirectoryWatcher: A directory notification for 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/' was aborted.
+[2017.04.21-04.26.50:213][967]LogExit: Editor shut down
+[2017.04.21-04.26.50:219][967]LogExit: Transaction tracking system shut down
+[2017.04.21-04.26.50:795][967]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.21-04.26.50:798][967]LogExit: Object subsystem successfully closed.
+[2017.04.21-04.26.50:859][967]LogD3D11RHI: Shutdown
+[2017.04.21-04.26.50:860][967]LogD3D11RHI: CleanupD3DDevice
+[2017.04.21-04.26.52:900][967]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.21-04.26.53:041][967]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.21-04.26.53:041][967]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.21-04.26.53:041][967]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.21-04.26.53:041][967]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.21-04.26.53:041][967]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.21-04.26.53:041][967]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.21-04.26.53:042][967]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.15/FeaturePacks/' was aborted.
+[2017.04.21-04.26.53:054][967]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.21-04.26.53:054][967]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.21-04.26.53:054][967]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.21-04.26.53:055][967]LogDirectoryWatcher: A directory notification for 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Collections/' was aborted.
+[2017.04.21-04.26.53:055][967]LogDirectoryWatcher: A directory notification for 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/Developers/wanly102/Collections/' was aborted.
+[2017.04.21-04.26.53:055][967]LogDirectoryWatcher: A directory notification for 'C:/Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Saved/Collections/' was aborted.
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.21-04.26.53:055][967]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.21-04.26.53:056][967]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.21-04.26.53:057][967]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.21-04.26.53:239][967]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.21-04.26.53:240][967]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.21-04.26.53:240][967]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.21-04.26.53:241][967]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.21-04.26.53:241][967]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.21-04.26.53:241][967]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.21-04.26.53:241][967]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.21-04.26.53:241][967]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.21-04.26.53:241][967]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.21-04.26.53:286][967]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.21-04.26.53:286][967]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.21-04.26.53:286][967]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.21-04.26.53:286][967]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.21-04.26.53:286][967]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.21-04.26.53:286][967]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.21-04.26.53:287][967]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.21-04.26.53:287][967]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.21-04.26.53:287][967]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.21-04.26.53:304][967]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.21-04.26.53:305][967]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.21-04.26.53:319][967]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.21-04.26.53:320][967]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.21-04.26.53:321][967]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.21-04.26.53:322][967]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.21-04.26.53:324][967]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.21-04.26.53:325][967]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.21-04.26.53:325][967]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.21-04.26.53:326][967]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.21-04.26.53:329][967]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.21-04.26.53:329][967]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.21-04.26.53:329][967]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.21-04.26.53:329][967]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.21-04.26.53:430][967]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.21-04.26.53:531][967]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.21-04.26.53:531][967]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.21-04.26.53:531][967]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.21-04.26.53:532][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.21-04.26.53:532][967]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.21-04.26.53:532][967]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.21-04.26.53:532][967]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.21-04.26.53:539][967]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.21-04.26.53:540][967]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.21-04.26.53:540][967]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.21-04.26.53:540][967]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.21-04.26.53:540][967]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.21-04.26.53:540][967]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.21-04.26.53:540][967]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.21-04.26.53:541][967]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.21-04.26.53:541][967]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.21-04.26.53:550][967]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.21-04.26.53:551][967]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.21-04.26.53:551][967]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.21-04.26.53:551][967]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.21-04.26.53:551][967]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.21-04.26.53:551][967]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.21-04.26.53:870][967]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.21-04.26.53:870][967]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jicheng/Desktop/Zombie-City-master/ZombieCity/Content/' was aborted.
+[2017.04.21-04.26.53:870][967]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.21-04.26.53:871][967]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.21-04.26.53:878][967]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.21-04.26.53:879][967]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.21-04.26.53:936][967]LogDerivedDataCache: Shutdown
+[2017.04.21-04.26.53:936][967]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.21-04.26.53:937][967]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.21-04.26.53:937][967]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.21-04.26.53:937][967]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.21-04.26.53:937][967]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.21-04.26.53:937][967]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.21-04.26.53:938][967]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.21-04.26.53:938][967]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.21-04.26.53:938][967]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.21-04.26.53:939][967]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.21-04.26.53:940][967]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.21-04.26.53:941][967]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.21-04.26.53:942][967]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.21-04.26.53:942][967]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.21-04.26.53:942][967]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.21-04.26.53:942][967]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.21-04.26.53:942][967]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.21-04.26.53:942][967]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.21-04.26.53:943][967]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.21-04.26.53:943][967]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.21-04.26.53:944][967]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.21-04.26.53:944][967]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.21-04.26.53:944][967]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.21-04.26.53:944][967]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCCC15EF-4BE7-9A5F-BA80-CCA6C24F9383%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=e976023546dc5647c961e9bd97ebc7a3%7Ca68cc776c4554d8f9051a07f79addb08%7C02d49969-8a05-4c88-a0e3-b891fce403b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.21-04.26.53:973][967]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.21-04.26.53:982][967]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.21-04.26.53:982][967]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.21-04.26.53:982][967]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.21-04.26.53:982][967]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.21-04.26.53:982][967]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.21-04.26.54:031][967]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.21-04.26.54:032][967]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.21-04.26.54:032][967]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.21-04.26.54:038][967]LogExit: Exiting.
+[2017.04.21-04.26.54:073][967]Log file closed, 04/21/17 13:56:54
