@@ -3612,3 +3612,4 @@ LogInit: Object subsystem initialized
 [2017.05.06-19.26.39:024][580]LogSavePackage: Moving '../../../../../Git/Zombie-City/ZombieCity/Saved/UIMap_BuiltDataB21523DE4240D10A92560EAF37EBABA2.tmp' to '../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
 [2017.05.06-19.26.39:025][580]LogSavePackage:Display: Finished SavePackage ../../../../../Git/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
 [2017.05.06-19.26.39:030][580]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.06-19.28.52:293][343]BlueprintLog: New page: Compile MainMenuWidget
