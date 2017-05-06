@@ -1,0 +1,359 @@
+﻿Log file open, 05/07/17 03:23:45
+LogInit:Display: Running engine for game: ZombieCity
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(827650292) SRandInit(827650292).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079571
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: E:/Program/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.06-17.53.46:841][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.06-17.53.46:841][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.06-17.53.46:849][  0]LogInit: Computer: ZHANGFAN
+[2017.05.06-17.53.46:849][  0]LogInit: User: fan
+[2017.05.06-17.53.46:849][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.06-17.53.46:849][  0]LogInit: High frequency timer resolution =2.435774 MHz
+[2017.05.06-17.53.46:850][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.06-17.53.46:850][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-17.53.46:850][  0]LogMemory: Process Physical Memory: 264.04 MB used, 264.04 MB peak
+[2017.05.06-17.53.46:850][  0]LogMemory: Process Virtual Memory: 262.81 MB used, 262.81 MB peak
+[2017.05.06-17.53.46:850][  0]LogMemory: Physical Memory: 9303.73 MB used,  6961.29 MB free, 16265.02 MB total
+[2017.05.06-17.53.46:850][  0]LogMemory: Virtual Memory: 645.45 MB used,  6961.29 MB free, 134217728.00 MB total
+[2017.05.06-17.53.46:958][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.05.06-17.53.47:847][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.06-17.53.47:898][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.05.06-17.53.47:898][  0]LogD3D11RHI:       2017/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.06-17.53.47:920][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.06-17.53.47:921][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.06-17.53.47:924][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.06-17.53.47:924][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.06-17.53.47:924][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.06-17.53.47:942][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.06-17.53.47:943][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.05.06-17.53.47:943][  0]LogWindows: EnumDisplayDevices:
+[2017.05.06-17.53.47:943][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.06-17.53.47:944][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.05.06-17.53.47:945][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.06-17.53.47:946][  0]LogWindows:    3. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
+[2017.05.06-17.53.47:946][  0]LogWindows:    4. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
+[2017.05.06-17.53.47:946][  0]LogWindows:    5. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
+[2017.05.06-17.53.47:948][  0]LogWindows:    6. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
+[2017.05.06-17.53.47:948][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.06-17.53.47:948][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.05.06-17.53.47:948][  0]LogD3D11RHI:   Driver Version: 378.78 (internal:21.21.13.7878, unified:378.78)
+[2017.05.06-17.53.47:949][  0]LogD3D11RHI:      Driver Date: 2-23-2017
+[2017.05.06-17.53.47:949][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.06-17.53.47:979][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.06-17.53.47:984][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: NvApiIncompatible
+[2017.05.06-17.53.47:984][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.06-17.53.48:004][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.06-17.53.48:006][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Git/Zombie-City/ZombieCity/Intermediate/Shaders/WorkingDirectory/1384/).
+[2017.05.06-17.53.48:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/fan/AppData/Local/Temp/UnrealShaderWorkingDir/D9D1D9FA464C1A857C73ACBC86CF5B89/'.
+[2017.05.06-17.53.48:007][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.06-17.53.50:268][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.06-17.53.50:351][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.06-17.53.50:436][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.06-17.53.50:498][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.06-17.53.50:498][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.06-17.53.51:089][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.06-17.53.51:189][  0]LogDerivedDataCache: Loaded boot cache 0.10s 52MB C:/Users/fan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.06-17.53.51:189][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/fan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.06-17.53.51:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Zombie-City/ZombieCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.06-17.53.51:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.06-17.53.51:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Git/Zombie-City/ZombieCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.06-17.53.51:189][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.06-17.53.51:219][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.06-17.53.51:233][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.06-17.53.51:253][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.06-17.53.51:254][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.06-17.53.51:254][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.06-17.53.51:841][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.05.06-17.53.51:856][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.015471 seconds
+[2017.05.06-17.53.51:882][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.06-17.53.51:884][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.05.06-17.53.52:282][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.06-17.53.52:341][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.06-17.53.52:404][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.06-17.53.52:404][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.06-17.53.52:404][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.06-17.53.53:578][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: zombiecity, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 270151773
+[2017.05.06-17.53.53:655][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.06-17.53.54:985][  0]LogMoviePlayer: Initializing movie player
+[2017.05.06-17.53.55:574][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.06-17.53.55:633][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.06-17.53.56:032][  0]SourceControl: Info Source control is disabled
+[2017.05.06-17.53.56:032][  0]SourceControl: Info Source control is disabled
+[2017.05.06-17.53.56:099][  0]SourceControl: Info Source control is disabled
+[2017.05.06-17.53.56:956][  0]LogUObjectArray: 34408 objects as part of root set at end of initial load.
+[2017.05.06-17.53.56:956][  0]LogUObjectAllocator: 7639320 out of 0 bytes used by permanent object pool.
+[2017.05.06-17.53.56:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.06-17.53.57:111][  0]LogEngine: Initializing Engine...
+[2017.05.06-17.53.57:115][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.06-17.53.57:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.06-17.53.57:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.06-17.53.57:298][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-17.53.57:340][  0]LogInit: FAudioDevice initialized.
+[2017.05.06-17.53.57:360][  0]LogInit: Texture streaming: Enabled
+[2017.05.06-17.53.57:384][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.06-17.53.57:907][  0]LogInit:Display: Game Engine Initialized.
+[2017.05.06-17.53.58:101][  0]LogInit:Display: Starting Game.
+[2017.05.06-17.53.58:102][  0]LogNet: Browse: /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap?Name=Player
+[2017.05.06-17.53.58:102][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap?Name=Player
+[2017.05.06-17.53.58:135][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-17.53.58:135][  0]LogMemory: Process Physical Memory: 680.74 MB used, 712.45 MB peak
+[2017.05.06-17.53.58:135][  0]LogMemory: Process Virtual Memory: 741.79 MB used, 774.99 MB peak
+[2017.05.06-17.53.58:135][  0]LogMemory: Physical Memory: 9674.32 MB used,  6590.71 MB free, 16265.02 MB total
+[2017.05.06-17.53.58:135][  0]LogMemory: Virtual Memory: 1381.60 MB used,  6590.71 MB free, 134217728.00 MB total
+[2017.05.06-17.53.58:135][  0]LogMemory: 
+[2017.05.06-17.53.58:135][  0]Allocator Stats for TBB: (not implemented)
+[2017.05.06-17.53.58:661][  0]LogAIModule: Creating AISystem for world UIMap
+[2017.05.06-17.53.58:661][  0]LogLoad: Game class is 'ZombieCityGameMode_C'
+[2017.05.06-17.53.58:667][  0]LogWorld: Bringing World /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.UIMap up for play (max tick rate 0) at 2017.05.07-03.23.58
+[2017.05.06-17.53.58:667][  0]LogWorld: Bringing up level for play took: 0.002553
+[2017.05.06-17.53.58:675][  0]LogLoad: Took 0.572971 seconds to LoadMap(/Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap)
+[2017.05.06-17.53.58:893][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2017.05.06-17.53.58:893][  0]LogLoad: (Engine Initialization) Total time: 14.59 seconds
+[2017.05.06-17.53.58:893][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.05.06-17.53.58:893][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.06-17.53.58:894][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.06-17.53.58:920][  0]LogOcInput: OculusInput pre-init called
+[2017.05.06-17.56.29:266][253]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve MainMap.umap.
+[2017.05.06-17.56.29:320][253]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve MainMap.umap.
+[2017.05.06-17.56.29:320][253]LogNet: Browse: /Game/ZombieCity/Maps/MainMap
+[2017.05.06-17.56.29:320][253]LogLoad: LoadMap: /Game/ZombieCity/Maps/MainMap
+[2017.05.06-17.56.29:347][253]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-17.56.29:347][253]LogMemory: Process Physical Memory: 707.41 MB used, 769.67 MB peak
+[2017.05.06-17.56.29:347][253]LogMemory: Process Virtual Memory: 929.85 MB used, 1054.31 MB peak
+[2017.05.06-17.56.29:347][253]LogMemory: Physical Memory: 9436.82 MB used,  6828.20 MB free, 16265.02 MB total
+[2017.05.06-17.56.29:347][253]LogMemory: Virtual Memory: 1639.85 MB used,  6828.20 MB free, 134217728.00 MB total
+[2017.05.06-17.56.29:347][253]LogMemory: 
+[2017.05.06-17.56.29:347][253]Allocator Stats for TBB: (not implemented)
+[2017.05.06-17.56.29:857][253]LogAIModule: Creating AISystem for world MainMap
+[2017.05.06-17.56.29:857][253]LogLoad: Game class is 'ZombieCityGameMode_C'
+[2017.05.06-17.56.29:865][253]LogWorld: Bringing World /Game/ZombieCity/Maps/MainMap.MainMap up for play (max tick rate 0) at 2017.05.07-03.26.29
+[2017.05.06-17.56.29:867][253]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:NewBlueprint_2 with goal actor None (if any of these is None then there's your problem
+[2017.05.06-17.56.29:867][253]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:NewBlueprint_2 with goal actor None (if any of these is None then there's your problem
+[2017.05.06-17.56.29:867][253]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:NewBlueprint_2 with goal actor None (if any of these is None then there's your problem
+[2017.05.06-17.56.29:867][253]LogWorld: Bringing up level for play took: 0.008544
+[2017.05.06-17.56.29:869][253]LogLoad: Took 0.548966 seconds to LoadMap(/Game/ZombieCity/Maps/MainMap)
+[2017.05.06-17.56.37:433][717]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve UIMap.umap.
+[2017.05.06-17.56.37:485][717]LogPackageName: SearchForPackageOnDisk took   0.051s to resolve UIMap.umap.
+[2017.05.06-17.56.37:485][717]LogNet: Browse: /Game/ZombieCity/Maps/UIMap
+[2017.05.06-17.56.37:485][717]LogLoad: LoadMap: /Game/ZombieCity/Maps/UIMap
+[2017.05.06-17.56.37:521][717]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-17.56.37:521][717]LogMemory: Process Physical Memory: 774.00 MB used, 791.12 MB peak
+[2017.05.06-17.56.37:521][717]LogMemory: Process Virtual Memory: 1001.21 MB used, 1091.28 MB peak
+[2017.05.06-17.56.37:521][717]LogMemory: Physical Memory: 9507.46 MB used,  6757.56 MB free, 16265.02 MB total
+[2017.05.06-17.56.37:521][717]LogMemory: Virtual Memory: 1734.98 MB used,  6757.56 MB free, 134217728.00 MB total
+[2017.05.06-17.56.37:521][717]LogMemory: 
+[2017.05.06-17.56.37:521][717]Allocator Stats for TBB: (not implemented)
+[2017.05.06-17.56.37:796][717]LogAIModule: Creating AISystem for world UIMap
+[2017.05.06-17.56.37:796][717]LogLoad: Game class is 'ZombieCityGameMode_C'
+[2017.05.06-17.56.37:798][717]LogWorld: Bringing World /Game/ZombieCity/Maps/UIMap.UIMap up for play (max tick rate 0) at 2017.05.07-03.26.37
+[2017.05.06-17.56.37:798][717]LogWorld: Bringing up level for play took: 0.000610
+[2017.05.06-17.56.37:799][717]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-17.56.37:801][717]LogLoad: Took 0.315180 seconds to LoadMap(/Game/ZombieCity/Maps/UIMap)
+[2017.05.06-17.56.42:033][977]LogPackageName: SearchForPackageOnDisk took   0.052s to resolve MainMap.umap.
+[2017.05.06-17.56.42:083][977]LogPackageName: SearchForPackageOnDisk took   0.050s to resolve MainMap.umap.
+[2017.05.06-17.56.42:083][977]LogNet: Browse: /Game/ZombieCity/Maps/MainMap
+[2017.05.06-17.56.42:083][977]LogLoad: LoadMap: /Game/ZombieCity/Maps/MainMap
+[2017.05.06-17.56.42:109][977]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-17.56.42:109][977]LogMemory: Process Physical Memory: 780.38 MB used, 825.92 MB peak
+[2017.05.06-17.56.42:109][977]LogMemory: Process Virtual Memory: 1011.01 MB used, 1101.88 MB peak
+[2017.05.06-17.56.42:109][977]LogMemory: Physical Memory: 9506.39 MB used,  6758.63 MB free, 16265.02 MB total
+[2017.05.06-17.56.42:109][977]LogMemory: Virtual Memory: 1764.16 MB used,  6758.63 MB free, 134217728.00 MB total
+[2017.05.06-17.56.42:109][977]LogMemory: 
+[2017.05.06-17.56.42:109][977]Allocator Stats for TBB: (not implemented)
+[2017.05.06-17.56.42:604][977]LogAIModule: Creating AISystem for world MainMap
+[2017.05.06-17.56.42:604][977]LogLoad: Game class is 'ZombieCityGameMode_C'
+[2017.05.06-17.56.42:609][977]LogWorld: Bringing World /Game/ZombieCity/Maps/MainMap.MainMap up for play (max tick rate 0) at 2017.05.07-03.26.42
+[2017.05.06-17.56.42:609][977]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:NewBlueprint_2 with goal actor None (if any of these is None then there's your problem
+[2017.05.06-17.56.42:609][977]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:NewBlueprint_2 with goal actor None (if any of these is None then there's your problem
+[2017.05.06-17.56.42:610][977]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:AIController_0 controlling Pawn:NewBlueprint_2 with goal actor None (if any of these is None then there's your problem
+[2017.05.06-17.56.42:610][977]LogWorld: Bringing up level for play took: 0.004061
+[2017.05.06-17.56.42:611][977]LogLoad: Took 0.527946 seconds to LoadMap(/Game/ZombieCity/Maps/MainMap)
+[2017.05.06-17.56.51:411][503]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.05.06-17.56.51:416][503]LogEngine: All Windows Closed
+[2017.05.06-17.56.51:416][503]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.05.06-17.56.51:417][504]LogMoviePlayer: Shutting down movie player
+[2017.05.06-17.56.52:192][504]LogExit: Preparing to exit.
+[2017.05.06-17.56.52:845][504]LogExit: Game engine shut down
+[2017.05.06-17.56.52:912][504]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.06-17.56.52:912][504]LogExit: Object subsystem successfully closed.
+[2017.05.06-17.56.52:934][504]LogD3D11RHI: Shutdown
+[2017.05.06-17.56.52:934][504]LogD3D11RHI: CleanupD3DDevice
+[2017.05.06-17.56.52:976][504]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (264)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module SequenceRecorder (262)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module AutomationController (260)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module AutomationWorker (258)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module AIModule (256)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module GameplayDebugger (255)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module AITestSuite (253)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (250)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module MfMediaFactory (248)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (246)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (244)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module Media (243)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module CharacterAI (240)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module SessionServices (238)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module GeometryCache (234)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (233)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module Niagara (230)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (228)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module PortalServices (226)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module PortalRpc (224)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module MessagingRpc (222)
+[2017.05.06-17.56.52:984][504]LogModuleManager: Shutting down and abandoning module ProfilerService (220)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module TaskGraph (218)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module SteamVRController (216)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module SteamVR (214)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (212)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module OculusLibrary (210)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module OculusInput (208)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (206)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (204)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module CableComponent (202)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (200)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module HTML5Networking (196)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (194)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module DesktopPlatform (193)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module HotReload (191)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (190)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module UObjectPlugin (186)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (184)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (182)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module SourceControl (181)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (178)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module PhysXVehicles (176)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (174)
+[2017.05.06-17.56.53:051][504]LogModuleManager: Shutting down and abandoning module UdpMessaging (172)
+[2017.05.06-17.56.53:151][504]LogModuleManager: Shutting down and abandoning module TcpMessaging (170)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (168)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module FacialAnimation (166)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (164)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module Paper2D (162)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (160)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module WmfMedia (158)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module MfMedia (156)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module MediaAssets (154)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (152)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module VREditor (150)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (148)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (142)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module UMG (140)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module UMGEditor (139)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module Sequencer (138)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module AssetTools (136)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module MessageLog (135)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (134)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module SlateReflector (128)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module Slate (126)
+[2017.05.06-17.56.53:646][504]LogModuleManager: Shutting down and abandoning module EditorStyle (124)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module Messaging (122)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (120)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (118)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module XAudio2 (116)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module Networking (114)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module Core (110)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module KismetCompiler (108)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module PhysXFormats (106)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module MeshUtilities (104)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (103)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (101)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (99)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module PropertyEditor (97)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2017.05.06-17.56.53:648][504]LogModuleManager: Shutting down and abandoning module DerivedDataCache (92)
+[2017.05.06-17.56.53:742][504]LogDerivedDataCache: Shutdown
+[2017.05.06-17.56.53:742][504]LogModuleManager: Shutting down and abandoning module TargetPlatform (90)
+[2017.05.06-17.56.53:742][504]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (89)
+[2017.05.06-17.56.53:742][504]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (87)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (85)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (83)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (81)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (79)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (77)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (75)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (73)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module ImageWrapper (72)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (69)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (67)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (63)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (61)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (59)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (57)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.06-17.56.53:743][504]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.06-17.56.53:743][504]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.06-17.56.53:775][504]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.06-17.56.53:776][504]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.06-17.56.53:778][504]LogExit: Exiting.
+[2017.05.06-17.56.53:779][504]Log file closed, 05/07/17 03:26:53
