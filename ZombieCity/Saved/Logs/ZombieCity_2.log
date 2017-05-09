@@ -1,9 +1,9 @@
-﻿Log file open, 05/07/17 04:56:39
+﻿Log file open, 05/09/17 14:06:43
 LogInit:Display: Running engine for game: ZombieCity
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1521620483) SRandInit(1521620483).
+LogInit:Display: RandInit(-131520915) SRandInit(-131520915).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.085189
+LogStats: Stats thread started at 0.073571
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -43,277 +43,423 @@ LogInit: Compiled (64-bit): May  1 2017 13:11:28
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line:  /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
-LogInit: Base directory: E:/Program/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.06-19.26.41:156][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.06-19.26.41:156][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.06-19.26.41:160][  0]LogInit: Computer: ZHANGFAN
-[2017.05.06-19.26.41:160][  0]LogInit: User: fan
-[2017.05.06-19.26.41:160][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.06-19.26.41:160][  0]LogInit: High frequency timer resolution =2.435774 MHz
-[2017.05.06-19.26.41:161][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.05.06-19.26.41:161][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.06-19.26.41:161][  0]LogMemory: Process Physical Memory: 264.11 MB used, 264.11 MB peak
-[2017.05.06-19.26.41:161][  0]LogMemory: Process Virtual Memory: 262.82 MB used, 262.82 MB peak
-[2017.05.06-19.26.41:161][  0]LogMemory: Physical Memory: 8265.42 MB used,  7999.61 MB free, 16265.02 MB total
-[2017.05.06-19.26.41:161][  0]LogMemory: Virtual Memory: 645.45 MB used,  7999.61 MB free, 134217728.00 MB total
-[2017.05.06-19.26.41:255][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2017.05.06-19.26.41:900][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.06-19.26.41:935][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
-[2017.05.06-19.26.41:935][  0]LogD3D11RHI:       2017/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.05.06-19.26.41:941][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.05.06-19.26.41:941][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.05.06-19.26.41:943][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.06-19.26.41:943][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.06-19.26.41:943][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.06-19.26.41:955][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.06-19.26.41:955][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
-[2017.05.06-19.26.41:955][  0]LogWindows: EnumDisplayDevices:
-[2017.05.06-19.26.41:956][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.05.06-19.26.41:956][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2017.05.06-19.26.41:957][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.05.06-19.26.41:957][  0]LogWindows:    3. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
-[2017.05.06-19.26.41:957][  0]LogWindows:    4. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
-[2017.05.06-19.26.41:958][  0]LogWindows:    5. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
-[2017.05.06-19.26.41:958][  0]LogWindows:    6. 'NVIDIA GeForce GTX 860M' (P:0 D:0)
-[2017.05.06-19.26.41:958][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.05.06-19.26.41:958][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
-[2017.05.06-19.26.41:958][  0]LogD3D11RHI:   Driver Version: 378.78 (internal:21.21.13.7878, unified:378.78)
-[2017.05.06-19.26.41:958][  0]LogD3D11RHI:      Driver Date: 2-23-2017
-[2017.05.06-19.26.41:958][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.06-19.26.41:978][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.05.06-19.26.41:981][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: NvApiIncompatible
-[2017.05.06-19.26.41:981][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.06-19.26.41:994][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.06-19.26.41:995][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../Git/Zombie-City/ZombieCity/Intermediate/Shaders/WorkingDirectory/30232/).
-[2017.05.06-19.26.41:995][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/fan/AppData/Local/Temp/UnrealShaderWorkingDir/9BC71FCD4E4C3B425D713BAD417A66EA/'.
-[2017.05.06-19.26.41:995][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.06-19.26.43:279][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.06-19.26.43:360][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.06-19.26.43:423][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.06-19.26.43:473][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.06-19.26.43:473][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.06-19.26.43:965][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.06-19.26.44:040][  0]LogDerivedDataCache: Loaded boot cache 0.08s 52MB C:/Users/fan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.06-19.26.44:040][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/fan/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.06-19.26.44:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Zombie-City/ZombieCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.06-19.26.44:040][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.06-19.26.44:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Git/Zombie-City/ZombieCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.06-19.26.44:040][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.06-19.26.44:067][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.06-19.26.44:081][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.06-19.26.44:096][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.06-19.26.44:096][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.06-19.26.44:096][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.06-19.26.44:531][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2017.05.06-19.26.44:548][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.017061 seconds
-[2017.05.06-19.26.44:588][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.06-19.26.44:590][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2017.05.06-19.26.44:922][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.06-19.26.44:973][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.06-19.26.45:025][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.06-19.26.45:025][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.06-19.26.45:025][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.06-19.26.45:896][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: zombiecity, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 270151773
-[2017.05.06-19.26.46:015][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.06-19.26.47:170][  0]LogMoviePlayer: Initializing movie player
-[2017.05.06-19.26.47:615][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.06-19.26.47:660][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.06-19.26.48:091][  0]SourceControl: Info Source control is disabled
-[2017.05.06-19.26.48:091][  0]SourceControl: Info Source control is disabled
-[2017.05.06-19.26.48:152][  0]SourceControl: Info Source control is disabled
-[2017.05.06-19.26.49:039][  0]LogUObjectArray: 34408 objects as part of root set at end of initial load.
-[2017.05.06-19.26.49:039][  0]LogUObjectAllocator: 7639320 out of 0 bytes used by permanent object pool.
-[2017.05.06-19.26.49:039][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.06-19.26.49:185][  0]LogEngine: Initializing Engine...
-[2017.05.06-19.26.49:186][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.06-19.26.49:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.06-19.26.49:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.06-19.26.49:372][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.06-19.26.49:408][  0]LogInit: FAudioDevice initialized.
-[2017.05.06-19.26.49:426][  0]LogInit: Texture streaming: Enabled
-[2017.05.06-19.26.49:447][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.06-19.26.49:985][  0]LogInit:Display: Game Engine Initialized.
-[2017.05.06-19.26.50:220][  0]LogInit:Display: Starting Game.
-[2017.05.06-19.26.50:220][  0]LogNet: Browse: /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap?Name=Player
-[2017.05.06-19.26.50:220][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap?Name=Player
-[2017.05.06-19.26.50:252][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.06-19.26.50:252][  0]LogMemory: Process Physical Memory: 680.89 MB used, 714.87 MB peak
-[2017.05.06-19.26.50:252][  0]LogMemory: Process Virtual Memory: 737.50 MB used, 773.20 MB peak
-[2017.05.06-19.26.50:252][  0]LogMemory: Physical Memory: 8685.88 MB used,  7579.15 MB free, 16265.02 MB total
-[2017.05.06-19.26.50:252][  0]LogMemory: Virtual Memory: 1417.16 MB used,  7579.15 MB free, 134217728.00 MB total
-[2017.05.06-19.26.50:252][  0]LogMemory: 
-[2017.05.06-19.26.50:252][  0]Allocator Stats for TBB: (not implemented)
-[2017.05.06-19.26.50:784][  0]LogAIModule: Creating AISystem for world UIMap
-[2017.05.06-19.26.50:784][  0]LogLoad: Game class is 'ZombieCityGameMode_C'
-[2017.05.06-19.26.50:787][  0]LogWorld: Bringing World /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.UIMap up for play (max tick rate 0) at 2017.05.07-04.56.50
-[2017.05.06-19.26.50:787][  0]LogWorld: Bringing up level for play took: 0.001414
-[2017.05.06-19.26.50:795][  0]LogLoad: Took 0.574904 seconds to LoadMap(/Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap)
-[2017.05.06-19.26.51:059][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
-[2017.05.06-19.26.51:059][  0]LogLoad: (Engine Initialization) Total time: 11.99 seconds
-[2017.05.06-19.26.51:059][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
-[2017.05.06-19.26.51:059][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.06-19.26.51:059][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.06-19.26.51:090][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
-[2017.05.06-19.26.51:096][  0]LogOcInput: OculusInput pre-init called
-[2017.05.06-19.27.21:662][891]LogNet: Browse: /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap
-[2017.05.06-19.27.21:662][891]LogLoad: LoadMap: /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap
-[2017.05.06-19.27.21:697][891]LogMemory: Platform Memory Stats for Windows
-[2017.05.06-19.27.21:697][891]LogMemory: Process Physical Memory: 711.61 MB used, 765.41 MB peak
-[2017.05.06-19.27.21:697][891]LogMemory: Process Virtual Memory: 927.39 MB used, 1045.96 MB peak
-[2017.05.06-19.27.21:697][891]LogMemory: Physical Memory: 8694.40 MB used,  7570.63 MB free, 16265.02 MB total
-[2017.05.06-19.27.21:697][891]LogMemory: Virtual Memory: 1716.44 MB used,  7570.63 MB free, 134217728.00 MB total
-[2017.05.06-19.27.21:697][891]LogMemory: 
-[2017.05.06-19.27.21:697][891]Allocator Stats for TBB: (not implemented)
-[2017.05.06-19.27.22:000][891]LogAIModule: Creating AISystem for world UIMap
-[2017.05.06-19.27.22:001][891]LogLoad: Game class is 'ZombieCityGameMode_C'
-[2017.05.06-19.27.22:004][891]LogWorld: Bringing World /Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.UIMap up for play (max tick rate 0) at 2017.05.07-04.57.22
-[2017.05.06-19.27.22:004][891]LogWorld: Bringing up level for play took: 0.000685
-[2017.05.06-19.27.22:007][891]LogLoad: Took 0.344378 seconds to LoadMap(/Temp/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap)
-[2017.05.06-19.27.23:122][961]Closing by request
-[2017.05.06-19.27.23:122][961]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.05.06-19.27.23:124][962]LogMoviePlayer: Shutting down movie player
-[2017.05.06-19.27.23:229][962]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
-[2017.05.06-19.27.23:233][962]LogExit: Preparing to exit.
-[2017.05.06-19.27.23:809][962]LogExit: Game engine shut down
-[2017.05.06-19.27.23:894][962]LogObj: Freed 0b from 0 cluster array pools.
-[2017.05.06-19.27.23:894][962]LogExit: Object subsystem successfully closed.
-[2017.05.06-19.27.23:915][962]LogD3D11RHI: Shutdown
-[2017.05.06-19.27.23:915][962]LogD3D11RHI: CleanupD3DDevice
-[2017.05.06-19.27.23:963][962]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (264)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module SequenceRecorder (262)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module AutomationController (260)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module AutomationWorker (258)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module AIModule (256)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module GameplayDebugger (255)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module AITestSuite (253)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (250)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module MfMediaFactory (248)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (246)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (244)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module Media (243)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module CharacterAI (240)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module SessionServices (238)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module GeometryCache (234)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (233)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module Niagara (230)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (228)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module PortalServices (226)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module PortalRpc (224)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module MessagingRpc (222)
-[2017.05.06-19.27.23:975][962]LogModuleManager: Shutting down and abandoning module ProfilerService (220)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module TaskGraph (218)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module SteamVRController (216)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module SteamVR (214)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (212)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module OculusLibrary (210)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module OculusInput (208)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (206)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (204)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module CableComponent (202)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (200)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module HTML5Networking (196)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (194)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module DesktopPlatform (193)
-[2017.05.06-19.27.24:173][962]LogModuleManager: Shutting down and abandoning module HotReload (191)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (190)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module UObjectPlugin (186)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (184)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (182)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module SourceControl (181)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (178)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module PhysXVehicles (176)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (174)
-[2017.05.06-19.27.24:174][962]LogModuleManager: Shutting down and abandoning module UdpMessaging (172)
-[2017.05.06-19.27.24:275][962]LogModuleManager: Shutting down and abandoning module TcpMessaging (170)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (168)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module FacialAnimation (166)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (164)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module Paper2D (162)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (160)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module WmfMedia (158)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module MfMedia (156)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module MediaAssets (154)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (152)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module VREditor (150)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (148)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (142)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module UMG (140)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module UMGEditor (139)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module Sequencer (138)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module AssetTools (136)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module MessageLog (135)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (134)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module SlateReflector (128)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module Slate (126)
-[2017.05.06-19.27.24:633][962]LogModuleManager: Shutting down and abandoning module EditorStyle (124)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module Messaging (122)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (120)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (118)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module XAudio2 (116)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module Networking (114)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module Core (110)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module KismetCompiler (108)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module PhysXFormats (106)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module MeshUtilities (104)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (103)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (101)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (99)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module PropertyEditor (97)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
-[2017.05.06-19.27.24:636][962]LogModuleManager: Shutting down and abandoning module DerivedDataCache (92)
-[2017.05.06-19.27.25:106][962]LogDerivedDataCache: Shutdown
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TargetPlatform (90)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (89)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (87)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (85)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (83)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (81)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (79)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (77)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (75)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (73)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module ImageWrapper (72)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (69)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (67)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (63)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (61)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (59)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (57)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.05.06-19.27.25:106][962]LogOnline:Display: Unloading online subsystem: NULL
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.05.06-19.27.25:106][962]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.05.06-19.27.25:137][962]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.05.06-19.27.25:139][962]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.05.06-19.27.25:144][962]LogExit: Exiting.
-[2017.05.06-19.27.25:146][962]Log file closed, 05/07/17 04:57:25
+[2017.05.09-04.36.44:484][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.09-04.36.44:484][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.09-04.36.44:496][  0]LogInit: Computer: DESKTOP-HADE94E
+[2017.05.09-04.36.44:497][  0]LogInit: User: YKT
+[2017.05.09-04.36.44:497][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.09-04.36.44:497][  0]LogInit: High frequency timer resolution =2.439980 MHz
+[2017.05.09-04.36.44:497][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.09-04.36.44:497][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.09-04.36.44:497][  0]LogMemory: Process Physical Memory: 262.05 MB used, 262.05 MB peak
+[2017.05.09-04.36.44:497][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2017.05.09-04.36.44:497][  0]LogMemory: Physical Memory: 7571.56 MB used,  8697.89 MB free, 16269.45 MB total
+[2017.05.09-04.36.44:497][  0]LogMemory: Virtual Memory: 644.97 MB used,  8697.89 MB free, 134217728.00 MB total
+[2017.05.09-04.36.44:560][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.05.09-04.36.45:153][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.09-04.36.45:769][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.05.09-04.36.45:769][  0]LogD3D11RHI:       3040/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.09-04.36.45:775][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.09-04.36.45:775][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.09-04.36.45:776][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.09-04.36.45:776][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.09-04.36.45:776][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.09-04.36.45:781][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.09-04.36.45:781][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.09-04.36.45:781][  0]LogWindows: EnumDisplayDevices:
+[2017.05.09-04.36.45:781][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.05.09-04.36.45:781][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.09-04.36.45:782][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.09-04.36.45:782][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.09-04.36.45:782][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.05.09-04.36.45:782][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.09-04.36.45:782][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.09-04.36.45:782][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.09-04.36.46:338][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.09-04.36.46:338][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.09-04.36.46:380][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.09-04.36.46:382][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Intermediate/Shaders/WorkingDirectory/13072/).
+[2017.05.09-04.36.46:382][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/YKT/AppData/Local/Temp/UnrealShaderWorkingDir/034FC6F94E5F6D037D4F2EB218518967/'.
+[2017.05.09-04.36.46:382][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.09-04.36.47:361][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.09-04.36.47:402][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.09-04.36.47:442][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.09-04.36.47:483][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.09-04.36.47:526][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.09-04.36.47:571][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.09-04.36.47:614][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.09-04.36.47:657][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.09-04.36.47:689][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.09-04.36.47:732][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.09-04.36.47:774][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.09-04.36.47:817][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.09-04.36.47:858][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.09-04.36.47:901][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.09-04.36.47:942][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.09-04.36.48:023][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.09-04.36.48:023][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.09-04.36.48:048][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.09-04.36.48:124][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.09-04.36.48:152][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.09-04.36.48:193][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.09-04.36.48:234][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.09-04.36.48:275][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.09-04.36.48:316][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.09-04.36.48:316][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.09-04.36.48:654][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.09-04.36.48:712][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/YKT/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.09-04.36.48:712][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/YKT/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.09-04.36.48:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.09-04.36.48:712][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.09-04.36.48:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.09-04.36.48:712][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.09-04.36.48:731][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.09-04.36.48:743][  0]LogDerivedDataCache: Using Local data cache path C:/Users/YKT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.09-04.36.48:754][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.09-04.36.48:754][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.09-04.36.48:754][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.09-04.36.49:023][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.09-04.36.49:025][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.09-04.36.49:196][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.09-04.36.49:225][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.09-04.36.49:254][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.09-04.36.49:254][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.09-04.36.49:254][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.09-04.36.49:778][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: zombiecity, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 270151773
+[2017.05.09-04.36.49:817][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.05.09-04.36.49:856][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024935 seconds
+[2017.05.09-04.36.49:861][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.09-04.36.49:861][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.09-04.36.49:861][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.09-04.36.49:903][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.09-04.36.51:093][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.09-04.36.51:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.09-04.36.51:549][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.09-04.36.51:811][  0]SourceControl: Info Source control is disabled
+[2017.05.09-04.36.51:837][  0]SourceControl: Info Source control is disabled
+[2017.05.09-04.36.51:871][  0]SourceControl: Info Source control is disabled
+[2017.05.09-04.36.51:901][  0]SourceControl: Info Source control is disabled
+[2017.05.09-04.36.52:768][  0]LogEngine: Initializing Engine...
+[2017.05.09-04.36.52:768][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.09-04.36.52:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.09-04.36.52:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.09-04.36.52:956][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.09-04.36.52:963][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-04.36.52:973][  0]LogInit: FAudioDevice initialized.
+[2017.05.09-04.36.53:000][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/YKT/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.09-04.36.53:010][  0]LogInit: Texture streaming: Enabled
+[2017.05.09-04.36.53:072][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.09-04.36.53:130][  0]LogInit: Transaction tracking system initialized
+[2017.05.09-04.36.53:359][  0]BlueprintLog: New page: Editor Load
+[2017.05.09-04.36.53:958][  0]LocalizationService: Info Localization service is disabled
+[2017.05.09-04.36.54:482][  0]LogConsoleResponse:Display: 
+[2017.05.09-04.36.54:608][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.09-04.36.54:608][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.09-04.36.54:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/' took 0.01s
+[2017.05.09-04.36.55:321][  0]SourceControl: Info Source control is disabled
+[2017.05.09-04.36.55:322][  0]Cmd: MAP LOAD FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.09-04.36.55:322][  0]LightingResults: New page: Lighting Build
+[2017.05.09-04.36.55:368][  0]MapCheck: New page: Map Check
+[2017.05.09-04.36.55:368][  0]LightingResults: New page: Lighting Build
+[2017.05.09-04.36.55:770][  0]LogAIModule: Creating AISystem for world UIMap
+[2017.05.09-04.36.55:788][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.09-04.36.55:789][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.09-04.36.55:819][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.716ms to complete.
+[2017.05.09-04.36.55:819][  0]LogFileHelpers: Loading map 'UIMap' took 0.497
+[2017.05.09-04.36.55:880][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft Quick).
+[2017.05.09-04.36.55:989][  0]LogCollectionManager: Loaded 1 collections in 0.001006 seconds
+[2017.05.09-04.36.56:056][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/Collections/' took 0.01s
+[2017.05.09-04.36.56:056][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Developers/YKT/Collections/' took 0.01s
+[2017.05.09-04.36.56:056][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Collections/' took 0.01s
+[2017.05.09-04.36.56:056][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.05.09-04.36.56:056][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.05.09-04.36.56:065][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2245 classes and 453 folders.
+[2017.05.09-04.36.56:106][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.09-04.36.56:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.09-04.36.56:165][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.09-04.36.56:258][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.09-04.36.56:264][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.09-04.36.56:315][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.09-04.36.56:316][  0]LogLoad: (Engine Initialization) Total time: 13.49 seconds
+[2017.05.09-04.36.56:316][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.05.09-04.36.56:316][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.09-04.36.56:334][  0]LogOcInput: OculusInput pre-init called
+[2017.05.09-04.36.56:367][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.09-04.36.56:368][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.09-04.36.56:372][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.09-04.36.56:376][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.09-04.36.56:523][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/' took 0.18s
+[2017.05.09-04.36.56:529][  1]LogRenderer: Reallocating scene render targets to support 992x500 NumSamples 1 (Frame:2).
+[2017.05.09-04.36.56:529][  1]LogAssetRegistry: Asset discovery search completed in 6.7339 seconds
+[2017.05.09-04.36.56:529][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000017 seconds (found 0 objects)
+[2017.05.09-04.36.56:529][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000036 seconds (updated 0 objects)
+[2017.05.09-04.38.24:177][446]AssetReimport: New page: Outstanding source content changes 11:38:24 pm
+[2017.05.09-04.38.24:204][446]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.png)
+[2017.05.09-04.38.25:824][446]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.09-04.38.25:831][446]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.09-04.38.25:854][447]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.fbx)
+[2017.05.09-04.38.25:858][447]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.09-04.38.25:858][447]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.09-04.38.25:858][447]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.09-04.38.25:858][447]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.09-04.38.25:858][447]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.05.09-04.38.25:858][447]LogFbx: ItemName: Video, ItemCount : 1
+[2017.05.09-04.38.25:863][447]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.fbx
+[2017.05.09-04.38.26:182][447]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-04.38.41:376][447]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.fbx
+[2017.05.09-04.38.41:386][447]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-04.38.43:069][447]LogMaterial: Missing cached shader map for material Flamethrower2, compiling. 
+[2017.05.09-04.38.43:555][447]LogStaticMesh: Building static mesh Flamethrower...
+[2017.05.09-04.38.43:706][447]LogStaticMesh: Built static mesh [0.15s] /Game/Weapon/Flamethrower.Flamethrower
+[2017.05.09-04.38.43:826][448]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower NRM.png)
+[2017.05.09-04.38.44:780][449]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower MET.png)
+[2017.05.09-04.38.46:252][449]LogTemp:Display: Finished compile of shader map 0x00000195EF2B7200
+[2017.05.09-04.38.46:252][449]LogTemp:Display: Shader map Flamethrower2 complete, GameThreadShaderMap 0x00000195EF2B7200, marking material Flamethrower2 as finished
+[2017.05.09-04.38.46:252][449]LogTemp:Display: Marking material as finished 0x0000019584926980
+[2017.05.09-04.38.46:275][450]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower AO.png)
+[2017.05.09-04.38.47:561][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/Flamethrower" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.uasset" SILENT=true
+[2017.05.09-04.38.47:586][451]LogSavePackage: Save=23.43ms
+[2017.05.09-04.38.47:586][451]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/FlamethrowerCCB04C28403A471B237E5081D75FDE0E.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.uasset'
+[2017.05.09-04.38.47:591][451]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.uasset
+[2017.05.09-04.38.47:592][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/Flamethrower" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.uasset" SILENT=true
+[2017.05.09-04.38.47:632][451]LogSavePackage: Save=8.30ms
+[2017.05.09-04.38.47:632][451]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/Flamethrower77250BB54479E077898B1182BF4C2780.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.uasset'
+[2017.05.09-04.38.47:633][451]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower.uasset
+[2017.05.09-04.38.47:647][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/Flamethrower_NRM" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_NRM.uasset" SILENT=true
+[2017.05.09-04.38.48:386][451]LogSavePackage: Save=737.01ms
+[2017.05.09-04.38.48:386][451]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/Flamethrower_NRM6C2179084F8E126AD0FAB099E4979909.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_NRM.uasset'
+[2017.05.09-04.38.48:388][451]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_NRM.uasset
+[2017.05.09-04.38.48:397][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/Flamethrower_MET" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_MET.uasset" SILENT=true
+[2017.05.09-04.38.48:906][451]LogSavePackage: Save=507.21ms
+[2017.05.09-04.38.48:906][451]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/Flamethrower_META2FD5F7C4B03831858C397BA6064CB98.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_MET.uasset'
+[2017.05.09-04.38.48:908][451]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_MET.uasset
+[2017.05.09-04.38.48:918][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/Flamethrower_AO" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_AO.uasset" SILENT=true
+[2017.05.09-04.38.49:311][451]LogSavePackage: Save=391.80ms
+[2017.05.09-04.38.49:311][451]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/Flamethrower_AO1DBA2A9945FB513C1423478249B7A843.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_AO.uasset'
+[2017.05.09-04.38.49:313][451]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/Flamethrower_AO.uasset
+[2017.05.09-04.38.52:319][619]AssetReimport: Info Importing new asset /Game/Weapon/Flamethrower.
+[2017.05.09-04.38.52:319][619]AssetReimport: Info Importing new asset /Game/Weapon/Flamethrower.
+[2017.05.09-04.38.52:319][619]AssetReimport: Info Importing new asset /Game/Weapon/Flamethrower_NRM.
+[2017.05.09-04.38.52:319][619]AssetReimport: Info Importing new asset /Game/Weapon/Flamethrower_MET.
+[2017.05.09-04.38.52:319][619]AssetReimport: Info Importing new asset /Game/Weapon/Flamethrower_AO.
+[2017.05.09-04.38.54:849][730]LogRenderer: Reallocating scene render targets to support 1240x576 NumSamples 1 (Frame:584).
+[2017.05.09-04.40.07:993][ 33]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.09-04.40.13:590][338]LogActorFactory: Actor Factory created Flamethrower
+[2017.05.09-04.40.13:860][354]LogActorFactory: Actor Factory created Flamethrower
+[2017.05.09-04.43.58:705][ 68]AssetReimport: New page: Outstanding source content changes 11:43:58 pm
+[2017.05.09-04.43.58:711][ 68]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_specular.dds)
+[2017.05.09-04.43.59:026][ 68]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_specular.dds)
+[2017.05.09-04.43.59:109][ 69]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_normal.dds)
+[2017.05.09-04.43.59:114][ 69]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_normal.dds)
+[2017.05.09-04.43.59:155][ 69]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_diffuse.dds)
+[2017.05.09-04.43.59:157][ 69]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_diffuse.dds)
+[2017.05.09-04.44.02:453][ 79]AssetReimport: Info Importing new asset /Game/Weapon/stg44_specular.
+[2017.05.09-04.44.02:453][ 79]AssetReimport: Info Failed to import file C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_specular.dds.
+[2017.05.09-04.44.02:453][ 79]AssetReimport: Info Importing new asset /Game/Weapon/stg44_normal.
+[2017.05.09-04.44.02:453][ 79]AssetReimport: Info Failed to import file C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_normal.dds.
+[2017.05.09-04.44.02:453][ 79]AssetReimport: Info Importing new asset /Game/Weapon/stg44_diffuse.
+[2017.05.09-04.44.02:453][ 79]AssetReimport: Info Failed to import file C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44_diffuse.dds.
+[2017.05.09-04.52.22:597][851]AssetReimport: New page: Outstanding source content changes 11:52:22 pm
+[2017.05.09-04.52.22:600][851]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.fbx)
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: NodeAttribute, ItemCount : 12
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: Model, ItemCount : 16
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: Texture, ItemCount : 3
+[2017.05.09-04.52.22:606][851]LogFbx: ItemName: Video, ItemCount : 3
+[2017.05.09-04.52.22:615][851]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.fbx
+[2017.05.09-04.52.22:961][851]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-04.52.24:892][851]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.fbx
+[2017.05.09-04.52.24:906][851]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-04.52.24:909][851]LogLinker: Can't find file '/Game/Weapon/stg'
+[2017.05.09-04.52.24:909][851]LogLinker: Can't find file '/Game/Weapon/stg'
+[2017.05.09-04.52.24:911][851]LogLinker: Can't find file '/Game/Weapon/stg44_diffuse'
+[2017.05.09-04.52.24:911][851]LogLinker: Can't find file '/Game/Weapon/stg44_diffuse'
+[2017.05.09-04.52.24:913][851]LogLinker: Can't find file '/Game/Weapon/stg44_specular'
+[2017.05.09-04.52.24:913][851]LogLinker: Can't find file '/Game/Weapon/stg44_specular'
+[2017.05.09-04.52.24:914][851]LogLinker: Can't find file '/Game/Weapon/stg44_normal'
+[2017.05.09-04.52.24:914][851]LogLinker: Can't find file '/Game/Weapon/stg44_normal'
+[2017.05.09-04.52.24:918][851]LogMaterial: Missing cached shader map for material stg, compiling. 
+[2017.05.09-04.52.24:936][851]LogStaticMesh: Building static mesh stg44_Mag8...
+[2017.05.09-04.52.24:942][851]LogStaticMesh: Built static mesh [0.01s] /Game/Weapon/stg44_Mag8.stg44_Mag8
+[2017.05.09-04.52.25:045][851]LogStaticMesh: Building static mesh stg44_Stg128...
+[2017.05.09-04.52.25:165][851]LogStaticMesh: Built static mesh [0.12s] /Game/Weapon/stg44_Stg128.stg44_Stg128
+[2017.05.09-04.52.25:186][851]LogStaticMesh: Building static mesh stg44_Stg8...
+[2017.05.09-04.52.25:251][851]LogStaticMesh: Built static mesh [0.07s] /Game/Weapon/stg44_Stg8.stg44_Stg8
+[2017.05.09-04.52.25:267][851]LogStaticMesh: Building static mesh stg44_Mag128...
+[2017.05.09-04.52.25:275][851]LogStaticMesh: Built static mesh [0.01s] /Game/Weapon/stg44_Mag128.stg44_Mag128
+[2017.05.09-04.52.25:350][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/stg44" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.uasset" SILENT=true
+[2017.05.09-04.52.25:357][852]LogSavePackage: Save=4.67ms
+[2017.05.09-04.52.25:357][852]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/stg440782FC764200754EA0FAC4ADD3528824.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.uasset'
+[2017.05.09-04.52.25:359][852]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.uasset
+[2017.05.09-04.52.27:278][939]LogTemp:Display: Finished compile of shader map 0x00000195F8EE7900
+[2017.05.09-04.52.27:278][939]LogTemp:Display: Shader map stg complete, GameThreadShaderMap 0x00000195F8EE7900, marking material stg as finished
+[2017.05.09-04.52.27:278][939]LogTemp:Display: Marking material as finished 0x00000195ED088A00
+[2017.05.09-04.52.28:365][  4]AssetReimport: Info Importing new asset /Game/Weapon/stg44.
+[2017.05.09-04.53.04:517][ 25]LogMaterial: Missing cached shader map for material stg, compiling. 
+[2017.05.09-04.53.04:518][ 25]LogTemp:Display: Added material ShaderMap 0x000001959919B900 with Material 0x00000195ABF52480 to ShaderMapsBeingCompiled
+[2017.05.09-04.53.04:527][ 25]LogTemp:Display: Kicking off shader compilation for stg, GameThreadShaderMap 0x000001959919B900
+[2017.05.09-04.53.04:613][ 25]LogMaterial: Missing cached shader map for material stg, compiling. 
+[2017.05.09-04.53.04:614][ 25]LogTemp:Display: Added material ShaderMap 0x00000195AB191D00 with Material 0x00000195ABF52480 to ShaderMapsBeingCompiled
+[2017.05.09-04.53.04:624][ 25]LogTemp:Display: Kicking off shader compilation for stg, GameThreadShaderMap 0x00000195AB191D00
+[2017.05.09-04.53.04:624][ 25]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.09-04.53.04:656][ 25]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.09-04.53.04:657][ 25]LogTemp:Display: Added material ShaderMap 0x000001959F492400 with Material 0x00000195AB15BA00 to ShaderMapsBeingCompiled
+[2017.05.09-04.53.04:659][ 25]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000001959F492400
+[2017.05.09-04.53.04:667][ 25]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.09-04.53.04:854][ 26]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.09-04.53.06:245][ 85]LogTemp:Display: Finished compile of shader map 0x00000195AB191D00
+[2017.05.09-04.53.06:245][ 85]LogTemp:Display: Shader map stg complete, GameThreadShaderMap 0x00000195AB191D00, marking material stg as finished
+[2017.05.09-04.53.06:245][ 85]LogTemp:Display: Marking material as finished 0x00000195ABF52480
+[2017.05.09-04.53.06:268][ 86]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.09-04.53.06:268][ 86]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.09-04.53.06:268][ 86]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.09-04.53.06:324][ 89]LogTemp:Display: Finished compile of shader map 0x000001959F492400
+[2017.05.09-04.53.06:324][ 89]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000001959F492400, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.09-04.53.06:324][ 89]LogTemp:Display: Marking material as finished 0x00000195AB15BA00
+[2017.05.09-04.54.26:366][468]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.fbx)
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: NodeAttribute, ItemCount : 12
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: Model, ItemCount : 16
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: Texture, ItemCount : 3
+[2017.05.09-04.54.26:369][468]LogFbx: ItemName: Video, ItemCount : 3
+[2017.05.09-04.54.26:373][468]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.fbx
+[2017.05.09-04.54.26:388][468]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-04.54.46:975][468]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/stg44.fbx
+[2017.05.09-04.54.46:989][468]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-04.54.46:992][468]LogFbx:Warning: Triangulating static mesh Mag8
+[2017.05.09-04.54.46:998][468]LogStaticMesh: Building static mesh stg44_Mag8...
+[2017.05.09-04.54.47:004][468]LogStaticMesh: Built static mesh [0.01s] /Game/Weapon/stg44_Mag8.stg44_Mag8
+[2017.05.09-04.54.47:008][468]LogFbx:Warning: Triangulating static mesh Stg128
+[2017.05.09-04.54.47:098][468]LogStaticMesh: Building static mesh stg44_Stg128...
+[2017.05.09-04.54.47:197][468]LogStaticMesh: Built static mesh [0.10s] /Game/Weapon/stg44_Stg128.stg44_Stg128
+[2017.05.09-04.54.47:200][468]LogStaticMesh:Warning: stg44_Stg128 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.09-04.54.47:206][468]LogFbx:Warning: Triangulating static mesh Stg8
+[2017.05.09-04.54.47:215][468]LogStaticMesh: Building static mesh stg44_Stg8...
+[2017.05.09-04.54.47:270][468]LogStaticMesh: Built static mesh [0.06s] /Game/Weapon/stg44_Stg8.stg44_Stg8
+[2017.05.09-04.54.47:275][468]LogFbx:Warning: Triangulating static mesh Mag128
+[2017.05.09-04.54.47:280][468]LogStaticMesh: Building static mesh stg44_Mag128...
+[2017.05.09-04.54.47:286][468]LogStaticMesh: Built static mesh [0.01s] /Game/Weapon/stg44_Mag128.stg44_Mag128
+[2017.05.09-04.54.47:290][468]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.09-04.54.47:290][468]FBXImport:Warning: Warning stg44_Stg128 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.09-04.55.27:367][863]Cmd: SELECT NONE
+[2017.05.09-04.57.00:479][398]AssetReimport: New page: Outstanding source content changes 11:57:00 pm
+[2017.05.09-04.57.01:203][398]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.724 s
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: 
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Core\Private\Misc\SlowTask.cpp] [Line: 86]
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: Stack: 
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D8CE95E6
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D8A99B82
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D8AAB666
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D8AF080E
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFB1038A
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFAB07D9
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFA8837F
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFAC60F6
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFAB1AB2
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFB2C188
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFB2DCF0
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFE17C47
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BFE15979
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C0622156
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor.exe!0x000000003711DEE3
+[2017.05.09-04.57.01:203][398]LogOutputDevice:Error: UE4Editor.exe!0x000000003710EB40
+[2017.05.09-04.57.01:204][398]LogOutputDevice:Error: UE4Editor.exe!0x000000003710EBBA
+[2017.05.09-04.57.01:204][398]LogOutputDevice:Error: UE4Editor.exe!0x0000000037120A29
+[2017.05.09-04.57.01:204][398]LogOutputDevice:Error: UE4Editor.exe!0x00000000371222B6
+[2017.05.09-04.57.01:204][398]LogOutputDevice:Error: KERNEL32.DLL!0x000000001A308364
+[2017.05.09-04.57.01:204][398]LogOutputDevice:Error: ntdll.dll!0x000000001BA570D1
+[2017.05.09-04.57.01:204][398]LogOutputDevice:Error: 
+[2017.05.09-04.57.01:207][398]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.09-04.57.06:230][398]LogStats:                    SendNewReport -  5.023 s
+[2017.05.09-04.57.06:230][398]LogStats:             FDebug::EnsureFailed -  5.751 s
+[2017.05.09-04.57.06:276][398]LogTemp:Display: Removed shader map 0x000001959919B900 from material 0x00000195ABF52480
+[2017.05.09-04.57.11:098][574]AssetReimport: Info Attempting to delete stg44_Mag8 (its source file has been removed).
+[2017.05.09-04.57.11:099][574]AssetReimport: Info Attempting to delete stg44_Stg128 (its source file has been removed).
+[2017.05.09-04.57.11:099][574]AssetReimport: Info Attempting to delete stg44_Stg8 (its source file has been removed).
+[2017.05.09-04.57.11:099][574]AssetReimport: Info Attempting to delete stg44_Mag128 (its source file has been removed).
+[2017.05.09-05.04.36:485][ 19]AssetReimport: New page: Outstanding source content changes 12:04:36 am
+[2017.05.09-05.04.36:487][ 19]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK_OBJ.obj)
+[2017.05.09-05.04.36:496][ 19]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK_OBJ.obj
+[2017.05.09-05.04.36:507][ 19]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-05.04.38:464][ 19]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK_OBJ.obj
+[2017.05.09-05.04.38:469][ 19]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-05.04.38:471][ 19]LogLinker: Can't find file '/Game/Weapon/Material01'
+[2017.05.09-05.04.38:471][ 19]LogLinker: Can't find file '/Game/Weapon/Material01'
+[2017.05.09-05.04.38:473][ 19]LogLinker: Can't find file '/Game/Weapon/AK'
+[2017.05.09-05.04.38:473][ 19]LogLinker: Can't find file '/Game/Weapon/AK'
+[2017.05.09-05.04.38:495][ 19]LogMaterial: Missing cached shader map for material Material01, compiling. 
+[2017.05.09-05.04.38:508][ 19]LogStaticMesh: Building static mesh AK_OBJ...
+[2017.05.09-05.04.38:519][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/Weapon/AK_OBJ.AK_OBJ
+[2017.05.09-05.04.38:550][ 20]LogEditorFactories: Performing atomic reimport of [C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK.tga]
+[2017.05.09-05.04.38:551][ 20]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK.tga)
+[2017.05.09-05.04.38:573][ 20]LogEditorFactories: -- imported successfully
+[2017.05.09-05.04.38:707][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/AK_OBJ" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK_OBJ.uasset" SILENT=true
+[2017.05.09-05.04.38:728][ 21]LogSavePackage: Save=19.16ms
+[2017.05.09-05.04.38:728][ 21]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/AK_OBJ8E1BC2E0436A50F91553548E7C45CEAD.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK_OBJ.uasset'
+[2017.05.09-05.04.38:730][ 21]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK_OBJ.uasset
+[2017.05.09-05.04.40:626][133]LogTemp:Display: Finished compile of shader map 0x0000019584A20B80
+[2017.05.09-05.04.40:626][133]LogTemp:Display: Shader map Material01 complete, GameThreadShaderMap 0x0000019584A20B80, marking material Material01 as finished
+[2017.05.09-05.04.40:626][133]LogTemp:Display: Marking material as finished 0x0000019596D8DD80
+[2017.05.09-05.04.41:731][199]AssetReimport: Info Importing new asset /Game/Weapon/AK_OBJ.
+[2017.05.09-05.04.41:731][199]AssetReimport: Info Reimported asset AK from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/AK.tga.
+[2017.05.09-05.06.38:801][639]AssetReimport: New page: Outstanding source content changes 12:06:38 am
+[2017.05.09-05.06.38:803][639]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/MachineGun.fbx)
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: NodeAttribute, ItemCount : 57
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: Model, ItemCount : 58
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: Material, ItemCount : 3
+[2017.05.09-05.06.38:808][639]LogFbx: ItemName: CollectionExclusive, ItemCount : 5
+[2017.05.09-05.06.38:813][639]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/MachineGun.fbx
+[2017.05.09-05.06.39:133][639]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-05.06.40:806][639]LogFbx: Loading FBX Scene from C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/MachineGun.fbx
+[2017.05.09-05.06.40:835][639]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.09-05.06.40:838][639]LogLinker: Can't find file '/Game/Weapon/lambert3'
+[2017.05.09-05.06.40:839][639]LogLinker: Can't find file '/Game/Weapon/lambert3'
+[2017.05.09-05.06.40:843][639]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2017.05.09-05.06.40:855][639]LogLinker: Can't find file '/Game/Weapon/lambert2'
+[2017.05.09-05.06.40:855][639]LogLinker: Can't find file '/Game/Weapon/lambert2'
+[2017.05.09-05.06.40:860][639]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.05.09-05.06.40:872][639]LogLinker: Can't find file '/Game/Weapon/lambert1'
+[2017.05.09-05.06.40:873][639]LogLinker: Can't find file '/Game/Weapon/lambert1'
+[2017.05.09-05.06.40:878][639]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.05.09-05.06.41:070][639]LogStaticMesh: Building static mesh MachineGun...
+[2017.05.09-05.06.41:090][639]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.05.09-05.06.41:477][639]LogStaticMesh: Built static mesh [0.41s] /Game/Weapon/MachineGun.MachineGun
+[2017.05.09-05.06.41:683][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapon/MachineGun" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/MachineGun.uasset" SILENT=true
+[2017.05.09-05.06.41:705][640]LogSavePackage: Save=20.42ms
+[2017.05.09-05.06.41:705][640]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/MachineGunF39BAA7C403674F249A94EAAAC3A0C74.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/MachineGun.uasset'
+[2017.05.09-05.06.41:708][640]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/Weapon/MachineGun.uasset
+[2017.05.09-05.06.43:596][726]LogTemp:Display: Finished compile of shader map 0x00000195F771E400
+[2017.05.09-05.06.43:596][726]LogTemp:Display: Shader map lambert3 complete, GameThreadShaderMap 0x00000195F771E400, marking material lambert3 as finished
+[2017.05.09-05.06.43:596][726]LogTemp:Display: Marking material as finished 0x000001958D24EE00
+[2017.05.09-05.06.43:642][728]LogTemp:Display: Finished compile of shader map 0x00000195D4463900
+[2017.05.09-05.06.43:642][728]LogTemp:Display: Shader map lambert2 complete, GameThreadShaderMap 0x00000195D4463900, marking material lambert2 as finished
+[2017.05.09-05.06.43:642][728]LogTemp:Display: Marking material as finished 0x000001958D24D900
+[2017.05.09-05.06.44:715][787]AssetReimport: Info Importing new asset /Game/Weapon/MachineGun.
+[2017.05.09-05.06.45:215][817]LogTemp:Display: Finished compile of shader map 0x00000195A43D5D00
+[2017.05.09-05.06.45:215][817]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x00000195A43D5D00, marking material lambert1 as finished
+[2017.05.09-05.06.45:215][817]LogTemp:Display: Marking material as finished 0x000001958D24C280
+[2017.05.09-05.07.09:290][650]AssetReimport: New page: Outstanding source content changes 12:07:09 am
+[2017.05.09-05.07.14:438][696]AssetReimport: Info Attempting to delete MachineGun (its source file has been removed).
+[2017.05.09-05.07.44:847][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.09-05.07.45:260][355]LogSavePackage: Save=384.92ms
+[2017.05.09-05.07.45:260][355]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/UIMap504CBE764814D0C9A292B3A46EF241E4.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap'
+[2017.05.09-05.07.45:262][355]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap
+[2017.05.09-05.07.45:300][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.09-05.07.45:318][355]LogSavePackage: Save=4.13ms
+[2017.05.09-05.07.45:318][355]LogSavePackage: Moving 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Saved/UIMap_BuiltData98C6320847A7D14C822359B0BD7B9FA0.tmp' to 'C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.09-05.07.45:318][355]LogSavePackage:Display: Finished SavePackage C:/Users/YKT/Documents/GitHub/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
