@@ -1,0 +1,584 @@
+﻿Log file open, 05/22/17 12:09:05
+LogInit:Display: Running engine for game: ZombieCity
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1072728470) SRandInit(-1072728470).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.255476
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.22-02.39.09:001][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.22-02.39.09:001][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.22-02.39.09:196][  0]LogInit: Computer: LIZHANG
+[2017.05.22-02.39.09:196][  0]LogInit: User: wanly102
+[2017.05.22-02.39.09:196][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.22-02.39.09:196][  0]LogInit: High frequency timer resolution =2.533198 MHz
+[2017.05.22-02.39.09:198][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.22-02.39.09:198][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.22-02.39.09:198][  0]LogMemory: Process Physical Memory: 262.23 MB used, 262.23 MB peak
+[2017.05.22-02.39.09:198][  0]LogMemory: Process Virtual Memory: 262.25 MB used, 262.25 MB peak
+[2017.05.22-02.39.09:198][  0]LogMemory: Physical Memory: 2982.48 MB used,  5090.48 MB free, 8072.96 MB total
+[2017.05.22-02.39.09:198][  0]LogMemory: Virtual Memory: 642.59 MB used,  5090.48 MB free, 134217728.00 MB total
+[2017.05.22-02.39.10:323][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
+[2017.05.22-02.39.10:323][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
+这个节点)
+[2017.05.22-02.39.10:323][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
+[2017.05.22-02.39.13:182][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.22-02.39.13:951][  0]LogD3D11RHI:    0. 'AMD Radeon R7 M265' (Feature Level 11_0)
+[2017.05.22-02.39.13:952][  0]LogD3D11RHI:       2035/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.05.22-02.39.13:960][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.05.22-02.39.13:960][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.22-02.39.13:962][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.22-02.39.13:962][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.22-02.39.13:962][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.22-02.39.13:979][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.22-02.39.13:979][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.22-02.39.13:979][  0]LogWindows: EnumDisplayDevices:
+[2017.05.22-02.39.13:979][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.05.22-02.39.13:980][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.22-02.39.13:980][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.22-02.39.13:981][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.22-02.39.13:981][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M265
+[2017.05.22-02.39.13:981][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.22-02.39.13:981][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.22-02.39.13:981][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.22-02.39.14:982][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.22-02.39.15:161][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.05.22-02.39.15:228][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Intermediate/Shaders/WorkingDirectory/6104/).
+[2017.05.22-02.39.15:229][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jicheng/AppData/Local/Temp/UnrealShaderWorkingDir/78523537401B7AFF6A05A593196B01B6/'.
+[2017.05.22-02.39.15:229][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.22-02.39.21:494][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.22-02.39.21:773][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.22-02.39.22:065][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.22-02.39.22:387][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.22-02.39.22:609][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.22-02.39.22:737][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.22-02.39.22:862][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.22-02.39.22:990][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.22-02.39.23:078][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.22-02.39.23:218][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.22-02.39.23:573][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.22-02.39.23:843][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.22-02.39.24:023][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.22-02.39.24:122][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.22-02.39.24:414][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.22-02.39.25:016][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.22-02.39.25:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.22-02.39.25:225][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.22-02.39.25:613][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.22-02.39.25:828][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.22-02.39.26:131][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.22-02.39.26:436][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.22-02.39.26:655][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.22-02.39.26:922][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.22-02.39.26:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.22-02.39.30:018][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.22-02.39.31:177][  0]LogDerivedDataCache: Loaded boot cache 1.16s 50MB C:/Users/jicheng/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.22-02.39.31:177][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jicheng/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.22-02.39.31:177][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.22-02.39.31:177][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.22-02.39.31:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.22-02.39.31:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.22-02.39.31:309][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.22-02.39.31:347][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jicheng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.22-02.39.31:414][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.22-02.39.31:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.22-02.39.31:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.22-02.39.39:340][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.22-02.39.39:372][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.22-02.39.40:718][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.22-02.39.40:974][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.22-02.39.41:316][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.22-02.39.41:316][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.22-02.39.41:316][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.22-02.39.47:004][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: zombiecity, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 270151773
+[2017.05.22-02.39.47:104][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.05.22-02.39.47:476][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.149677 seconds
+[2017.05.22-02.39.47:483][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.22-02.39.47:483][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.22-02.39.47:483][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.22-02.39.47:566][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.22-02.40.20:202][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.22-02.40.20:357][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.22-02.40.23:260][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.22-02.40.25:544][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.22-02.40.25:550][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.22-02.40.25:848][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.22-02.40.26:113][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.22-02.40.27:990][  0]LogLinker:Warning: 无法寻找到文件'/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.05.22-02.40.27:990][  0]LogLinker:Warning: 无法寻找到文件'/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.05.22-02.40.27:990][  0]LogUObjectGlobals:Warning: 寻找对象'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'失败
+[2017.05.22-02.40.33:248][  0]LogEngine: Initializing Engine...
+[2017.05.22-02.40.33:253][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.22-02.40.34:800][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.22-02.40.34:830][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.22-02.40.35:186][  0]LogInit: FAudioDevice initialized.
+[2017.05.22-02.40.35:276][  0]LogDerivedDataCache: Saved boot cache 0.09s 50MB C:/Users/jicheng/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.22-02.40.35:296][  0]LogInit: Texture streaming: Enabled
+[2017.05.22-02.40.35:807][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.22-02.40.36:557][  0]LogInit: Transaction tracking system initialized
+[2017.05.22-02.40.39:359][  0]BlueprintLog: New page: 编辑器加载
+[2017.05.22-02.40.43:883][  0]LocalizationService: 信息 本地化服务已被禁用
+[2017.05.22-02.40.47:585][  0]LogConsoleResponse:Display: 
+[2017.05.22-02.40.49:878][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.22-02.40.49:878][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.22-02.40.50:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/' took 0.07s
+[2017.05.22-02.40.57:147][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.22-02.40.57:150][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.22-02.40.57:177][  0]LightingResults: New page: 光照构建
+[2017.05.22-02.40.57:484][  0]MapCheck: New page: 地图检测
+[2017.05.22-02.40.57:484][  0]LightingResults: New page: 光照构建
+[2017.05.22-02.41.01:155][  0]LogAIModule: Creating AISystem for world UIMap
+[2017.05.22-02.41.01:212][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.22-02.41.01:236][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.22-02.41.01:278][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时41.816毫秒完成。
+[2017.05.22-02.41.01:278][  0]LogFileHelpers: Loading map 'UIMap' took 4.128
+[2017.05.22-02.41.02:350][  0]LogCollectionManager: Loaded 1 collections in 0.015058 seconds
+[2017.05.22-02.41.02:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Collections/' took 0.01s
+[2017.05.22-02.41.02:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/Developers/wanly102/Collections/' took 0.01s
+[2017.05.22-02.41.02:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/Collections/' took 0.01s
+[2017.05.22-02.41.02:725][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000007 seconds
+[2017.05.22-02.41.02:725][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.05.22-02.41.02:753][  0]LogContentBrowser: Native class hierarchy populated in 0.0255 seconds. Added 2245 classes and 453 folders.
+[2017.05.22-02.41.02:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.22-02.41.02:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.22-02.41.03:019][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.05.22-02.41.05:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.05.22-02.41.05:296][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.05.22-02.41.05:974][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.22-02.41.05:992][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2017.05.22-02.41.06:192][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.05.22-02.41.06:193][  0]LogLoad: (Engine Initialization) Total time: 128.40 seconds
+[2017.05.22-02.41.06:193][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.56 seconds
+[2017.05.22-02.41.06:193][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.22-02.41.06:193][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.22-02.41.06:536][  0]LogOcInput: OculusInput pre-init called
+[2017.05.22-02.41.06:615][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.05.22-02.41.06:654][  0]LogSlate: Took 0.035538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.22-02.41.07:152][  0]LogSlate: Took 0.487639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.22-02.41.07:217][  0]LogSlate: Took 0.057343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.22-02.41.07:319][  0]LogSlate: Took 0.073200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.22-02.41.08:268][  0]LogSlate: Took 0.098573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-02.41.08:374][  0]LogRenderer: Reallocating scene render targets to support 836x440 NumSamples 1 (Frame:2).
+[2017.05.22-02.41.10:399][  2]LogSlate: Took 0.000540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-02.41.11:930][  7]LogAssetRegistry: Asset discovery search completed in 84.8483 seconds
+[2017.05.22-02.41.11:931][  7]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000025 seconds (found 0 objects)
+[2017.05.22-02.41.11:931][  7]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000101 seconds (updated 0 objects)
+[2017.05.22-02.41.15:242][ 17]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/' took 8.69s
+[2017.05.22-02.41.21:025][ 39]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.22-02.41.21:719][ 39]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.22-02.41.22:005][ 39]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.05.22-02.41.24:552][ 39]LogSlate: Took 0.022907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.22-02.41.25:832][ 40]LogSlate: Took 0.026039 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.22-02.41.41:361][720]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-02.41.41:704][720]LogSavePackage: Save=101.85ms
+[2017.05.22-02.41.41:704][720]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCUIMap2879450A4BD101204E3AAB8991F5AAF4.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.05.22-02.41.41:709][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.05.22-02.41.41:720][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.22-02.41.41:763][720]LogSavePackage: Save=4.29ms
+[2017.05.22-02.41.41:763][720]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UIMap_BuiltDataA3A09D134FA14AE3C71976AC5B9855FE.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.22-02.41.41:769][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.05.22-02.41.41:774][720]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-02.46.54:777][123]LogRenderer: Reallocating scene render targets to support 1008x536 NumSamples 1 (Frame:4008).
+[2017.05.22-02.52.46:767][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/UIMap' took 0.069
+[2017.05.22-02.52.46:775][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2017.05.22-02.52.46:811][644]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/NewBlueprint.NewBlueprint]
+[2017.05.22-02.52.46:811][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/NewBlueprint]
+[2017.05.22-02.52.46:960][644]LogSavePackage: Save=82.96ms
+[2017.05.22-02.52.46:960][644]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint_Auto1740A390F4D7379BCCB530F86905A7077.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Auto1.uasset'
+[2017.05.22-02.52.46:970][644]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Auto1.uasset
+[2017.05.22-02.52.46:977][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/Zombie003] ([1] browsable assets)...
+[2017.05.22-02.52.47:007][644]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/Zombie003.Zombie003]
+[2017.05.22-02.52.47:007][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/Zombie003]
+[2017.05.22-02.52.47:115][644]LogSavePackage: Save=53.73ms
+[2017.05.22-02.52.47:115][644]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie003_Auto1090DD912496B6B2FC2EA8FBE3D72695B.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zombie003_Auto1.uasset'
+[2017.05.22-02.52.47:123][644]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zombie003_Auto1.uasset
+[2017.05.22-02.52.47:123][644]LogFileHelpers: Auto-saving content packages took 0.355
+[2017.05.22-03.04.08:886][313]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/UIMap' took 0.071
+[2017.05.22-03.04.08:895][313]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/Zombie003] ([1] browsable assets)...
+[2017.05.22-03.04.08:931][313]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/Zombie003.Zombie003]
+[2017.05.22-03.04.08:931][313]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/Zombie003]
+[2017.05.22-03.04.09:049][313]LogSavePackage: Save=58.58ms
+[2017.05.22-03.04.09:049][313]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie003_Auto290E93FAE4A49814AD443DDA5C734B69C.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zombie003_Auto2.uasset'
+[2017.05.22-03.04.09:059][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zombie003_Auto2.uasset
+[2017.05.22-03.04.09:059][313]LogFileHelpers: Auto-saving content packages took 0.171
+[2017.05.22-03.07.05:131][134]BlueprintLog: New page: 编译Zombie003
+[2017.05.22-03.07.05:303][134]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.07.07:219][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zombie003" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset" SILENT=true
+[2017.05.22-03.07.07:303][273]LogSavePackage: Save=40.68ms
+[2017.05.22-03.07.07:303][273]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie003554FB1C7478DC944BDF6FE8087B42178.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset'
+[2017.05.22-03.07.07:334][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset
+[2017.05.22-03.17.24:352][512]BlueprintLog: New page: 编译Zoobie001
+[2017.05.22-03.17.24:592][512]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.17.28:538][852]BlueprintLog: New page: 编译NewBlueprint
+[2017.05.22-03.17.28:780][852]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.17.31:148][ 41]BlueprintLog: New page: 编译Zombie003
+[2017.05.22-03.17.31:369][ 41]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.17.36:058][215]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.17.39:330][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/NewBlueprint" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.05.22-03.17.39:484][215]LogSavePackage: Save=87.73ms
+[2017.05.22-03.17.39:484][215]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint2F86AE794E63A20A67CA8F91BAAEEAFF.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset'
+[2017.05.22-03.17.39:506][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset
+[2017.05.22-03.17.39:542][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zombie003" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset" SILENT=true
+[2017.05.22-03.17.39:658][215]LogSavePackage: Save=61.56ms
+[2017.05.22-03.17.39:658][215]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie003EDC1A5CD40693ECD0F2D18B5850FB7AF.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset'
+[2017.05.22-03.17.39:678][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset
+[2017.05.22-03.17.39:715][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zoobie001" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset" SILENT=true
+[2017.05.22-03.17.39:833][215]LogSavePackage: Save=61.31ms
+[2017.05.22-03.17.39:833][215]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zoobie0014FE396DE4AA96EF96F64E4A2B5AAA42E.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset'
+[2017.05.22-03.17.39:849][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset
+[2017.05.22-03.17.40:162][215]LogSavePackage: Save=167.06ms
+[2017.05.22-03.17.40:162][215]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCUIMap11F2A0D745B4A057BF6D80AD9A6676AA.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.05.22-03.17.40:170][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.05.22-03.17.40:184][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.17.40:246][215]LogSavePackage: Save=5.56ms
+[2017.05.22-03.17.40:246][215]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UIMap_BuiltDataEA79741648B3507ACFE1A4BCE01FAA66.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.22-03.17.40:253][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.05.22-03.17.40:261][215]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.18.31:550][855]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.18.32:204][855]LogSavePackage: Save=230.11ms
+[2017.05.22-03.18.32:204][855]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCUIMapFA4445DA48602C67E5639F996778CD56.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.05.22-03.18.32:217][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.05.22-03.18.32:242][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.18.32:344][855]LogSavePackage: Save=12.26ms
+[2017.05.22-03.18.32:344][855]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UIMap_BuiltDataA1CF3DA94764BCAF2ECB1DA4637E973F.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.22-03.18.32:357][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.05.22-03.18.32:369][855]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.19.47:257][260]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.19.48:051][260]LogSavePackage: Save=293.50ms
+[2017.05.22-03.19.48:051][260]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCUIMap189C8BE94E0F2869C302109A421069E7.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.05.22-03.19.48:076][260]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.05.22-03.19.48:112][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.19.48:266][260]LogSavePackage: Save=14.43ms
+[2017.05.22-03.19.48:266][260]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UIMap_BuiltData551113F04241A3E86A52FAAAFB463DF1.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.22-03.19.48:285][260]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.05.22-03.19.48:304][260]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.19.55:182][684]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.19.56:082][684]LogSavePackage: Save=497.09ms
+[2017.05.22-03.19.56:082][684]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCUIMap6181A8A44082FC1F7CE7888C0E9A7C18.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.05.22-03.19.56:102][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.05.22-03.19.56:140][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.19.56:292][684]LogSavePackage: Save=13.59ms
+[2017.05.22-03.19.56:292][684]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UIMap_BuiltData87858B2A4696A61E3EEA018547203FC4.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.22-03.19.56:312][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.05.22-03.19.56:329][684]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.21.08:455][ 92]BlueprintLog: New page: 编译Zombie003
+[2017.05.22-03.21.08:735][ 92]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.21.22:409][298]BlueprintLog: New page: 编译NewBlueprint
+[2017.05.22-03.21.22:653][298]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.21.35:409][342]BlueprintLog: New page: 编译Zoobie001
+[2017.05.22-03.21.35:631][342]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.21.39:031][544]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.21.40:769][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/NewBlueprint" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.05.22-03.21.40:904][544]LogSavePackage: Save=83.52ms
+[2017.05.22-03.21.40:904][544]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint4EE8F6DF425BBBE7CD0EA8AC9FCD0903.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset'
+[2017.05.22-03.21.40:924][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset
+[2017.05.22-03.21.40:956][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zombie003" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset" SILENT=true
+[2017.05.22-03.21.41:071][544]LogSavePackage: Save=62.02ms
+[2017.05.22-03.21.41:071][544]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie0032C7E65D041FF80FF8F266790080FD7FF.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset'
+[2017.05.22-03.21.41:091][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset
+[2017.05.22-03.21.41:125][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zoobie001" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset" SILENT=true
+[2017.05.22-03.21.41:235][544]LogSavePackage: Save=58.65ms
+[2017.05.22-03.21.41:235][544]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zoobie0018F4F86D741B0C5136CED06A3EE3805B2.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset'
+[2017.05.22-03.21.41:257][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset
+[2017.05.22-03.21.41:576][544]LogSavePackage: Save=165.79ms
+[2017.05.22-03.21.41:576][544]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCUIMap55FED20645A08BA6B91769B3D2703151.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap'
+[2017.05.22-03.21.41:583][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCUIMap.umap
+[2017.05.22-03.21.41:596][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/UIMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.21.41:653][544]LogSavePackage: Save=5.46ms
+[2017.05.22-03.21.41:653][544]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UIMap_BuiltData7CCB002941D4206ACBA431B57867437F.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset'
+[2017.05.22-03.21.41:660][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/UIMap_BuiltData.uasset
+[2017.05.22-03.21.41:667][544]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.22.53:037][801]LogAIModule: Creating AISystem for world MainMap
+[2017.05.22-03.22.53:354][801]Cmd: MAP LOAD FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.22-03.22.53:355][801]LightingResults: New page: 光照构建
+[2017.05.22-03.22.53:367][801]LoadErrors: New page: 正在加载地图： MainMap.umap
+[2017.05.22-03.22.53:369][801]MapCheck: New page: 地图检测
+[2017.05.22-03.22.53:369][801]LightingResults: New page: 光照构建
+[2017.05.22-03.22.53:957][801]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.05.22-03.22.54:095][801]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.22-03.22.54:194][801]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时99.009毫秒完成。
+[2017.05.22-03.22.54:203][801]LogFileHelpers: Loading map 'MainMap' took 0.856
+[2017.05.22-03.23.03:583][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-03.23.04:744][444]LogEditorViewport: Clicking on Actor (LMB): Zoobie001_C (Zoobie2)
+[2017.05.22-03.23.07:750][521]LogEditorViewport: Clicking on Actor (LMB): Zoobie001_C (Zoobie001)
+[2017.05.22-03.26.06:543][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-03.26.08:079][877]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_Child2_C (NewBlueprint_Child2)
+[2017.05.22-03.26.13:440][106]LogEditorViewport: Clicking on Actor (LMB): Zombie003_C (Zombie003)
+[2017.05.22-03.26.15:814][163]LogEditorViewport: Clicking on Actor (context menu): Zombie003_C (Zombie003)
+[2017.05.22-03.26.18:678][229]LogEditorViewport: Clicking on Actor (LMB): Zombie003_C (Zombie003)
+[2017.05.22-03.26.19:685][260]Cmd: DELETE
+[2017.05.22-03.26.19:685][260]Cmd: ACTOR DELETE
+[2017.05.22-03.26.30:981][260]LogEditorActor: Deleted 0 Actors (11.292 secs)
+[2017.05.22-03.26.32:241][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-03.26.35:312][493]LogEditorViewport: Clicking on Actor (LMB): Zoobie001_C (Zoobie001)
+[2017.05.22-03.26.36:933][529]LogEditorViewport: Clicking on Actor (context menu): Zoobie001_C (Zoobie001)
+[2017.05.22-03.26.41:726][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-03.26.42:697][838]LogEditorViewport: Clicking on Actor (LMB): Zoobie001_C (Zoobie001)
+[2017.05.22-03.26.51:180][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Obstacle2)
+[2017.05.22-03.26.52:268][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_5)
+[2017.05.22-03.26.53:095][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_12)
+[2017.05.22-03.26.55:896][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Obstacle2)
+[2017.05.22-03.27.01:590][  8]Cmd: TRANSACTION UNDO
+[2017.05.22-03.27.01:590][  8]LogEditorTransaction: Undo 移动Actor
+[2017.05.22-03.27.06:474][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-03.27.16:348][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.22-03.29.34:568][378]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0036 seconds. Added 1 classes and 2 folders.
+[2017.05.22-03.29.35:396][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.22-03.29.35:682][378]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.22-03.30.13:635][532]BlueprintLog: New page: 编译Zoobie001
+[2017.05.22-03.30.13:750][532]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:750][532]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:750][532]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:750][532]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie001_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:755][532]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:755][532]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:755][532]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.13:755][532]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.Zoobie2_43.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_Zoobie001_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.14:509][532]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.30.16:365][664]BlueprintLog: New page: 编译NewBlueprint
+[2017.05.22-03.30.16:548][664]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_Child2_346.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_Child2_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.16:549][664]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_Child2_346.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_Child2_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.16:549][664]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_Child2_346.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_Child2_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.16:549][664]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_Child2_346.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_Child2_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-03.30.17:137][664]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.30.18:196][733]BlueprintLog: New page: 编译Zombie003
+[2017.05.22-03.30.18:552][733]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.30.25:737][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.22-03.30.29:267][449]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.30.33:386][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/NewBlueprint" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.05.22-03.30.33:531][449]LogSavePackage: Save=87.86ms
+[2017.05.22-03.30.33:532][449]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint6B30BD5547ABB1C5CC927C8015B2C8F2.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset'
+[2017.05.22-03.30.33:553][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset
+[2017.05.22-03.30.33:586][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zombie003" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset" SILENT=true
+[2017.05.22-03.30.33:706][449]LogSavePackage: Save=61.64ms
+[2017.05.22-03.30.33:706][449]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie0035373CA9E467CF39D9F11278F5B81AECB.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset'
+[2017.05.22-03.30.33:725][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset
+[2017.05.22-03.30.33:763][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zoobie001" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset" SILENT=true
+[2017.05.22-03.30.33:892][449]LogSavePackage: Save=63.31ms
+[2017.05.22-03.30.33:892][449]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zoobie001D50EDE2A4F1BDF0A50EEF286A4B7ED6D.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset'
+[2017.05.22-03.30.33:913][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset
+[2017.05.22-03.30.34:355][449]LogSavePackage: Save=290.01ms
+[2017.05.22-03.30.34:355][449]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMap421C61AF4ED8D247FEC7F79D58DC1661.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.30.34:363][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.30.34:377][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.30.35:746][449]LogSavePackage: Save=1015.97ms
+[2017.05.22-03.30.35:746][449]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltData4D81F573468C900A7F38F988AAC52480.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.30.35:763][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.30.35:768][449]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.32.58:730][143]BlueprintLog: New page: 编译NewBlueprint
+[2017.05.22-03.32.59:207][143]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.33.23:678][597]BlueprintLog: New page: 编译NewBlueprint
+[2017.05.22-03.33.24:130][597]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.33.25:353][667]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.33.26:718][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/NewBlueprint" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.05.22-03.33.27:062][667]LogSavePackage: Save=244.29ms
+[2017.05.22-03.33.27:062][667]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprintA74CB0D1439DDECCCB2EFF8B4A7BFD0C.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset'
+[2017.05.22-03.33.27:112][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset
+[2017.05.22-03.33.28:060][667]LogSavePackage: Save=666.28ms
+[2017.05.22-03.33.28:060][667]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMapFB2DBB7048090958FB0486AB639A446B.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.33.28:078][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.33.28:110][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.33.29:027][667]LogSavePackage: Save=668.91ms
+[2017.05.22-03.33.29:027][667]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltDataD94E681C498486FE563B7084604DB602.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.33.29:037][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.33.29:047][667]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.33.41:506][370]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.33.42:183][370]LogSavePackage: Save=291.15ms
+[2017.05.22-03.33.42:183][370]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMap6712A1CA436D71E4B214E6A6C262D95A.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.33.42:191][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.33.42:204][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.33.42:697][370]LogSavePackage: Save=440.36ms
+[2017.05.22-03.33.42:697][370]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltDataEA36D8E0416301D734EB19808EE527A8.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.33.42:708][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.33.42:715][370]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.34.07:452][723]LogSavePackage: Save=587.31ms
+[2017.05.22-03.34.07:453][723]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_Auto3AEF1D5F34D75546B9688268B194220A9.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto3.umap'
+[2017.05.22-03.34.07:475][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto3.umap
+[2017.05.22-03.34.07:486][723]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/MainMap' took 0.941
+[2017.05.22-03.34.07:486][723]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.941
+[2017.05.22-03.35.50:208][ 71]BlueprintLog: New page: 编译NewBlueprint
+[2017.05.22-03.35.50:670][ 71]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.35.53:111][214]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.35.57:096][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/NewBlueprint" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.05.22-03.35.57:510][214]LogSavePackage: Save=251.68ms
+[2017.05.22-03.35.57:510][214]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint6C9D8DAB46634D75180CBD885AE5297F.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset'
+[2017.05.22-03.35.57:555][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/NewBlueprint.uasset
+[2017.05.22-03.35.58:586][214]LogSavePackage: Save=685.09ms
+[2017.05.22-03.35.58:586][214]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMapD2CCD6644EAC11DD4F8071AC28068850.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.35.58:598][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.35.58:621][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.35.59:386][214]LogSavePackage: Save=637.77ms
+[2017.05.22-03.35.59:386][214]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltData573F363D4FDD060757AF1B9A01FC1E6F.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.35.59:398][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.35.59:411][214]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.38.50:448][152]BlueprintLog: New page: 编译Zombie003
+[2017.05.22-03.38.50:713][152]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.38.53:281][273]BlueprintLog: New page: 编译Zoobie001
+[2017.05.22-03.38.53:547][273]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.39.04:901][886]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.05.22-03.39.04:965][886]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.05.22-03.39.12:428][237]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.05.22-03.39.12:494][237]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.05.22-03.41.02:962][335]BlueprintLog: New page: 编译Zoobie001
+[2017.05.22-03.41.03:295][335]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.41.46:528][883]BlueprintLog: New page: 编译Zombie003
+[2017.05.22-03.41.46:761][883]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.41.49:222][  2]BlueprintLog: New page: 编译Zoobie001
+[2017.05.22-03.41.49:744][  2]BlueprintEditorCompileResults: 信息 'Pawn'已经是一个'Pawn'，所以您不需要 类型转换为 Pawn 。
+[2017.05.22-03.41.52:517][120]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.42.01:525][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zombie003" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset" SILENT=true
+[2017.05.22-03.42.01:612][120]LogSavePackage: Save=44.00ms
+[2017.05.22-03.42.01:612][120]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie00366800D3B4654BBA4B5C4C09C4C725FC6.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset'
+[2017.05.22-03.42.01:628][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zombie003.uasset
+[2017.05.22-03.42.01:650][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Blueprints/Zoobie001" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset" SILENT=true
+[2017.05.22-03.42.01:735][120]LogSavePackage: Save=42.66ms
+[2017.05.22-03.42.01:735][120]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zoobie0017B9CAB794D1156FB826FE4985D09AD9A.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset'
+[2017.05.22-03.42.01:749][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Blueprints/Zoobie001.uasset
+[2017.05.22-03.42.02:061][120]LogSavePackage: Save=205.86ms
+[2017.05.22-03.42.02:061][120]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMap2F36CC1546D124D5BB780FAFB8906D06.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.42.02:067][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.42.02:079][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.42.02:417][120]LogSavePackage: Save=294.76ms
+[2017.05.22-03.42.02:417][120]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltDataDE566ED9423292F8B2A4C7B591625AC7.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.42.02:422][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.42.02:427][120]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.44.11:195][674]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.44.11:793][674]LogSavePackage: Save=292.91ms
+[2017.05.22-03.44.11:793][674]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMap3674EAEF444428E3301054BF71A47A89.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.44.11:802][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.44.11:818][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.44.12:304][674]LogSavePackage: Save=432.45ms
+[2017.05.22-03.44.12:304][674]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltData3CDCC84E47B9555970776D8742C469B3.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.44.12:315][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.44.12:323][674]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.44.47:092][ 83]LogSavePackage: Save=370.59ms
+[2017.05.22-03.44.47:092][ 83]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_Auto4774AF1B64CE2DAC6AEA5AFA5276928F4.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto4.umap'
+[2017.05.22-03.44.47:104][ 83]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto4.umap
+[2017.05.22-03.44.47:145][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/MainMap' took 0.579
+[2017.05.22-03.44.47:145][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.579
+[2017.05.22-03.46.18:581][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.22-03.46.21:138][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.22-03.53.18:343][599]LogTemp: Repeting last play command: 独立窗口运行
+[2017.05.22-03.53.18:961][599]LogSavePackage: Save=290.42ms
+[2017.05.22-03.53.18:961][599]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/UEDPCMainMapF7B226AD41B13842F085858DFF7088E6.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap'
+[2017.05.22-03.53.18:971][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/UEDPCMainMap.umap
+[2017.05.22-03.53.18:985][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieCity/Maps/MainMap_BuiltData" FILE="../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.05.22-03.53.19:479][599]LogSavePackage: Save=434.23ms
+[2017.05.22-03.53.19:479][599]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_BuiltData5DABE2254F8FEB94947F04BE761B453D.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset'
+[2017.05.22-03.53.19:488][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Content/ZombieCity/Maps/MainMap_BuiltData.uasset
+[2017.05.22-03.53.19:495][599]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.22-03.54.48:648][182]LogSavePackage: Save=412.29ms
+[2017.05.22-03.54.48:648][182]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_Auto57210301D46AEADE72BD900929EEBD64C.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto5.umap'
+[2017.05.22-03.54.48:663][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto5.umap
+[2017.05.22-03.54.48:675][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/MainMap' took 0.645
+[2017.05.22-03.54.48:675][182]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.645
+[2017.05.22-04.06.46:774][765]LogSlate: Took 0.287109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.22-04.07.30:859][349]LogSavePackage: Save=294.53ms
+[2017.05.22-04.07.30:859][349]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_Auto614CDBE28405A10C0F7546E8C07F84DB0.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto6.umap'
+[2017.05.22-04.07.30:870][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto6.umap
+[2017.05.22-04.07.30:879][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/MainMap' took 0.468
+[2017.05.22-04.07.30:879][349]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.468
+[2017.05.22-04.07.30:887][349]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2017.05.22-04.07.30:921][349]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/NewBlueprint.NewBlueprint]
+[2017.05.22-04.07.30:921][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/NewBlueprint]
+[2017.05.22-04.07.31:070][349]LogSavePackage: Save=92.82ms
+[2017.05.22-04.07.31:070][349]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint_Auto640FC15AF447575BC0EB5E086218CFABE.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Auto6.uasset'
+[2017.05.22-04.07.31:081][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Auto6.uasset
+[2017.05.22-04.07.31:081][349]LogFileHelpers: Auto-saving content packages took 0.200
+[2017.05.22-04.11.57:188][673]BlueprintLog: New page: 编译ZombieCityPawn
+[2017.05.22-04.11.58:663][673]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_2.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:663][673]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_2.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:664][673]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_2.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:664][673]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:673][673]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint2_682.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_6.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:673][673]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint2_682.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_6.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:674][673]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint2_682.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_6.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:674][673]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint2_682.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_6.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:685][673]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint3_975.CollisionCylinder is already used by CapsuleComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_12.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:686][673]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint3_975.Arrow is already used by ArrowComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_12.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:686][673]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint3_975.CharMoveComp is already used by CharacterMovementComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_12.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.11.58:686][673]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.NewBlueprint3_975.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ZombieCity/Maps/MainMap.MainMap:PersistentLevel.REINST_NewBlueprint_C_12.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.22-04.17.32:889][979]LogSavePackage: Save=819.00ms
+[2017.05.22-04.17.32:890][979]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/MainMap_Auto78812EF304352C4B588F0978FF8E577A5.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto7.umap'
+[2017.05.22-04.17.32:918][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Maps/MainMap_Auto7.umap
+[2017.05.22-04.17.32:939][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ZombieCity/Maps/MainMap' took 1.267
+[2017.05.22-04.17.32:939][979]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.267
+[2017.05.22-04.17.32:960][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/ZombieCityPawn] ([1] browsable assets)...
+[2017.05.22-04.17.33:021][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/ZombieCityPawn.ZombieCityPawn]
+[2017.05.22-04.17.33:021][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/ZombieCityPawn]
+[2017.05.22-04.17.33:397][979]LogSavePackage: Save=261.49ms
+[2017.05.22-04.17.33:397][979]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/ZombieCityPawn_Auto7ACF464064F2E5FA713128FB4751772ED.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/ZombieCityPawn_Auto7.uasset'
+[2017.05.22-04.17.33:420][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/ZombieCityPawn_Auto7.uasset
+[2017.05.22-04.17.33:435][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2017.05.22-04.17.33:527][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/NewBlueprint.NewBlueprint]
+[2017.05.22-04.17.33:527][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/NewBlueprint]
+[2017.05.22-04.17.33:919][979]LogSavePackage: Save=233.90ms
+[2017.05.22-04.17.33:919][979]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint_Auto7E756E6CE4CE3D36723B308BC5014DD27.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Auto7.uasset'
+[2017.05.22-04.17.33:937][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Auto7.uasset
+[2017.05.22-04.17.33:957][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/Zombie003] ([1] browsable assets)...
+[2017.05.22-04.17.34:041][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/Zombie003.Zombie003]
+[2017.05.22-04.17.34:041][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/Zombie003]
+[2017.05.22-04.17.34:351][979]LogSavePackage: Save=162.45ms
+[2017.05.22-04.17.34:351][979]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zombie003_Auto7EEE8C5524C7A8935D20AE280CA1B3EA2.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zombie003_Auto7.uasset'
+[2017.05.22-04.17.34:375][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zombie003_Auto7.uasset
+[2017.05.22-04.17.34:388][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/Zoobie001] ([1] browsable assets)...
+[2017.05.22-04.17.34:471][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/Zoobie001.Zoobie001]
+[2017.05.22-04.17.34:471][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/Zoobie001]
+[2017.05.22-04.17.34:819][979]LogSavePackage: Save=161.92ms
+[2017.05.22-04.17.34:819][979]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Zoobie001_Auto7FDE99D9948A3C1F30E5A9D93904E1466.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zoobie001_Auto7.uasset'
+[2017.05.22-04.17.34:846][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/Zoobie001_Auto7.uasset
+[2017.05.22-04.17.34:863][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ZombieCity/Blueprints/NewBlueprint_Child2] ([1] browsable assets)...
+[2017.05.22-04.17.34:918][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ZombieCity/Blueprints/NewBlueprint_Child2.NewBlueprint_Child2]
+[2017.05.22-04.17.34:918][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombieCity/Blueprints/NewBlueprint_Child2]
+[2017.05.22-04.17.35:209][979]LogSavePackage: Save=148.53ms
+[2017.05.22-04.17.35:209][979]LogSavePackage: Moving '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/NewBlueprint_Child2_Auto7A2BADDDF417F7AF9FD8B6AA354F76C0A.tmp' to '../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Child2_Auto7.uasset'
+[2017.05.22-04.17.35:234][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jicheng/Desktop/Zombie-City/ZombieCity/Saved/Autosaves/Game/ZombieCity/Blueprints/NewBlueprint_Child2_Auto7.uasset
+[2017.05.22-04.17.35:235][979]LogFileHelpers: Auto-saving content packages took 2.292
